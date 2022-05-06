@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .about__me {
