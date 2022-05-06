@@ -1,0 +1,30 @@
+.contact__option{
+    background: var(--color-bg);
+    box-shadow: 0 0 8px var(--color-shadow);
+    padding: 1.2rem;
+    color: var(--color-white);
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 2px solid var(--color-primary);
+    transition: border var(--animation-speed),
+    background var(--animation-speed);
+    
+}
+.contact__option:hover{
+    background: var(--color-primary);
+    border-color: var(--color-primary-variant);
+}
+.contact__option-icon{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.contact__option a{
+    margin-top: .7rem;
+    display: inline-block;
+    font-size: .8rem;
+    color: var(--color-primary);
+}
+.contact__option:hover a{
+    color: var(--color-bg);
+    text-shadow: 0 0 5px var(--color-bg-variant);
+}

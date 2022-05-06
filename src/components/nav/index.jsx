@@ -46,7 +46,7 @@ function Nav() {
 			const observer = new IntersectionObserver(intersection, {
 				root: null,
 				rootMargin: "0px",
-				threshold: 0.15,
+				threshold: 0.4,
 			})
 			observer.observe(measureHeader)
 			observer.observe(measureAbout)

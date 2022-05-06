@@ -20,6 +20,16 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    border: 3px solid transparent;
+}
+.swiper-slide:nth-child(3n+1) .testimonial{
+    border-color: #ff9616 !important;
+}
+.swiper-slide:nth-child(3n+2) .testimonial{
+    border-color: #1696ff !important;
+}
+.swiper-slide:nth-child(3n+3) .testimonial{
+    border-color: #16ee66 !important;
 }
 
 .client-review {

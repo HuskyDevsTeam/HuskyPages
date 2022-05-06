@@ -8,7 +8,13 @@ function Services() {
 			<h5>What We Offer</h5>
 			<h2>Services</h2>
 			<div className="container services__container">
-				<article className="service">
+				<article
+					className="service"
+					style={{
+						"--color-primary": "#ff9616",
+						"--color-primary-variant": "#b80c00",
+					}}
+				>
 					<div className="service__head">
 						<h3>UI/UX Design</h3>
 					</div>
@@ -50,7 +56,13 @@ function Services() {
 						</li>
 					</ul>
 				</article>
-				<article className="service">
+				<article
+					className="service"
+					style={{
+						"--color-primary": "#1696ff",
+						"--color-primary-variant": "#0022b8",
+					}}
+				>
 					<div className="service__head">
 						<h3>Web Development</h3>
 					</div>
@@ -106,7 +118,13 @@ function Services() {
 						</li>
 					</ul>
 				</article>
-				<article className="service">
+				<article
+					className="service"
+					style={{
+						"--color-primary": "#16ee66",
+						"--color-primary-variant": "#25aa00",
+					}}
+				>
 					<div className="service__head">
 						<h3>Content Creation</h3>
 					</div>

@@ -49,8 +49,8 @@ function Team() {
 				{ name: "github", url: "https://github.com/chemimartinez10" },
 				{ name: "linkedin", url: "https://linkedin.com/" },
 			],
-			color: "#16ff77",
-			subcolor: "#25b800",
+			color: "#16ee66",
+			subcolor: "#25aa00",
 		},
 	]
 	return (

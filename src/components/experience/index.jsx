@@ -4,7 +4,13 @@ import { BsPatchCheckFill } from "react-icons/bs"
 
 function Experience() {
 	return (
-		<section id="experience">
+		<section
+			id="experience"
+			style={{
+				"--color-primary": "#ff9616",
+				"--color-primary-variant": "#b80c00",
+			}}
+		>
 			<h5>Technologies We Have Worked</h5>
 			<h2>Our Experience</h2>
 			<div className="container experience__container">
