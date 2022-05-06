@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1920" height="1080" preserveAspectRatio="none" filter="url(#blur-image)" viewBox="0 0 1920 1080">
     <defs>
         <filter id="blur-image" x="0" y="0">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="1.2"></feGaussianBlur>
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.8"></feGaussianBlur>
         </filter>
         <mask id="SvgjsMask1000">
             <rect width="1920" height="1080" fill="#ffffff"></rect>

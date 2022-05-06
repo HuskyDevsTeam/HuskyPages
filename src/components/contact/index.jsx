@@ -41,15 +41,15 @@ function Contact() {
 						color="#ff9616"
 						subcolor="#b80c00"
 						name="Email"
-						username="chemimartinez10@gmail.com"
-						url="mailto:chemimartinez10@gmail.com"
+						username="info@huskydevs.com"
+						url="mailto:info@huskydevs.com"
 					/>
 					<ContactCard
 						Icon={RiMessengerLine}
 						color="#1696ff"
 						subcolor="#0022b8"
 						name="Messenger"
-						username="chemi.martinez.3"
+						username="husky.developers"
 						url="https://m.me/chemi.martinez.3"
 					/>
 					<ContactCard
