@@ -11,17 +11,16 @@
     right: 0;
     padding: 2rem;
     border-radius: 50%;
-    background: #333d;
+    background: var(--color-nav);
     color: #fff;
-    box-shadow: 0 0 5px var(--color-shadow);
-    backdrop-filter: blur(5px);
+    /* box-shadow: 0 0 5px var(--color-shadow); */
+    backdrop-filter: blur(15px);
     z-index: 100;
     cursor: pointer;
     transition: background var(--animation-speed), color var(--animation-speed);
 }
 
 .switch.day {
-    background: #ccc3;
     color: #333d;
     backdrop-filter: blur(5px);
 

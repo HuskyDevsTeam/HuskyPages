@@ -1,6 +1,6 @@
 .about__card{
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
