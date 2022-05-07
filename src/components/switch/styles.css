@@ -1,0 +1,42 @@
+.switch {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin: 2rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    border-radius: 50%;
+    background: #333d;
+    color: #fff;
+    box-shadow: 0 0 5px var(--color-shadow);
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    cursor: pointer;
+    transition: background var(--animation-speed), color var(--animation-speed);
+}
+
+.switch.day {
+    background: #ccc3;
+    color: #333d;
+    backdrop-filter: blur(5px);
+
+}
+
+.switch:hover {
+    background: #000;
+}
+
+.switch.day:hover {
+    background: #fff;
+
+}
+
+.switch>div {
+    padding-top: .4rem;
+    background: transparent;
+}

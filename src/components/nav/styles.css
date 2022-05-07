@@ -1,6 +1,6 @@
 nav{
     position:fixed;
-    background: rgba(0, 0, 0, 0.2);
+    background: var(--color-nav);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -24,9 +24,8 @@ nav a{
     font-size: 1.1rem;
 }
 
-nav a:hover{
+nav a.onhover{
     background: var(--color-bg);
-
 }
 
 nav a.active{

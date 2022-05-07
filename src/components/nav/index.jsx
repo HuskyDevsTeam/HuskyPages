@@ -1,19 +1,25 @@
-import React, {useState, useEffect} from "react"
+import React, { useState, useEffect } from "react"
 import "./styles.css"
 import { AiOutlineHome, AiOutlineUser, AiOutlineTeam } from "react-icons/ai"
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi"
 import { RiServiceLine } from "react-icons/ri"
 
 function Nav() {
-	useEffect(()=>{
-		const measureHeader = document.querySelector('header')
-		const measureAbout = document.querySelector('#about')
-		const measureExperience = document.querySelector('#experience')
-		const measureServices = document.querySelector('#services')
-		const measurePortfolio = document.querySelector('#portfolio')
-		const measureTeam = document.querySelector('#team')
-		const measureTestimonials = document.querySelector('#testimonials')
-		const measureContact = document.querySelector('#contact')
+	const touchBegin = (e) => {
+		e.target.classList.add("onhover")
+	}
+	const touchEnd = (e) => {
+		e.target.classList.remove("onhover")
+	}
+	useEffect(() => {
+		const measureHeader = document.querySelector("header")
+		const measureAbout = document.querySelector("#about")
+		const measureExperience = document.querySelector("#experience")
+		const measureServices = document.querySelector("#services")
+		const measurePortfolio = document.querySelector("#portfolio")
+		const measureTeam = document.querySelector("#team")
+		const measureTestimonials = document.querySelector("#testimonials")
+		const measureContact = document.querySelector("#contact")
 		const scrollFunc = () => {
 			const intersection = (entries) => {
 				entries.forEach((entry) => {
@@ -60,42 +66,66 @@ function Nav() {
 		scrollFunc()
 		window.addEventListener("resize", scrollFunc)
 	}, [])
-	const [activeNav, setActiveNav] = useState('#')
+	const [activeNav, setActiveNav] = useState("#")
 	return (
 		<nav>
 			<a
 				href="#"
 				className={activeNav === "#" ? "active" : ""}
+				onTouchStart={touchBegin}
+				onTouchEnd={touchEnd}
+				onMouseOver={touchBegin}
+				onMouseLeave={touchEnd}
 			>
 				<AiOutlineHome />
 			</a>
 			<a
 				href="#about"
 				className={activeNav === "#about" ? "active" : ""}
+				onTouchStart={touchBegin}
+				onTouchEnd={touchEnd}
+				onMouseOver={touchBegin}
+				onMouseLeave={touchEnd}
 			>
 				<AiOutlineUser />
 			</a>
 			<a
 				href="#experience"
 				className={activeNav === "#experience" ? "active" : ""}
+				onTouchStart={touchBegin}
+				onTouchEnd={touchEnd}
+				onMouseOver={touchBegin}
+				onMouseLeave={touchEnd}
 			>
 				<BiBook />
 			</a>
 			<a
 				href="#services"
 				className={activeNav === "#services" ? "active" : ""}
+				onTouchStart={touchBegin}
+				onTouchEnd={touchEnd}
+				onMouseOver={touchBegin}
+				onMouseLeave={touchEnd}
 			>
 				<RiServiceLine />
 			</a>
 			<a
 				href="#team"
 				className={activeNav === "#team" ? "active" : ""}
+				onTouchStart={touchBegin}
+				onTouchEnd={touchEnd}
+				onMouseOver={touchBegin}
+				onMouseLeave={touchEnd}
 			>
 				<AiOutlineTeam />
 			</a>
 			<a
 				href="#contact"
 				className={activeNav === "#contact" ? "active" : ""}
+				onTouchStart={touchBegin}
+				onTouchEnd={touchEnd}
+				onMouseOver={touchBegin}
+				onMouseLeave={touchEnd}
 			>
 				<BiMessageSquareDetail />
 			</a>

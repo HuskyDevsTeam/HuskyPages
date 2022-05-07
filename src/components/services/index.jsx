@@ -53,6 +53,7 @@ function Services() {
 			<div className="container services__container">
 				{SERVICES.map(({ title, color, subcolor, services }) => (
 					<article
+					key={title}
 						className="service"
 						style={{
 							"--color-primary": color,
@@ -64,7 +65,7 @@ function Services() {
 						</div>
 						<ul className="service__list">
 							{services.map((text) => (
-								<li>
+								<li key={text}>
 									<BiCheck className="service__list-icon" />
 									<p>
 										{text}

@@ -1,11 +1,14 @@
-import React from "react"
+import React, { useContext } from "react"
 import CTA from "./CTA"
 import "./styles.css"
 import HeaderSocials from "./HeaderSocials"
+import ThemeContext from "../../context/Context"
+
 
 function Header() {
+	const {style} = useContext(ThemeContext)
 	return (
-		<header id="header">
+		<header id="header" style={style}>
 			<div className="container header__container">
 				<h5>Welcome, we are</h5>
 				<h1>Husky Developers</h1>

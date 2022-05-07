@@ -9,20 +9,26 @@ import Portfolio from "./components/portfolio/index"
 import Services from "./components/services/index"
 import Team from "./components/team/index"
 import Testimonials from "./components/testimonials/index"
+import Switch from "./components/switch"
+import { ThemeContextProvider } from "./context/Context"
+import './App.css'
 
 function App() {
 	return (
 		<>
-			<Header />
-			<Nav />
-			<About />
-			<Experience />
-			<Portfolio />
-			<Services />
-			<Team />
-			<Testimonials />
-			<Contact />
-			<Footer />
+			<ThemeContextProvider>
+				<Switch />
+				<Header />
+				<Nav />
+				<About />
+				<Experience />
+				<Portfolio />
+				<Services />
+				<Team />
+				<Testimonials />
+				<Contact />
+				<Footer />
+			</ThemeContextProvider>
 		</>
 	)
 }

@@ -24,21 +24,26 @@ function About() {
 					<div className="about__cards">
 						<Card
 							title="Experience"
-							subtitle="3+ Years Working"
+							subtitle="4+ Years Working"
 							Icon={FaAward}
 						/>
-						<Card title="Clients" subtitle="200+ Worldwide" Icon={FiUsers} />
+						<Card
+							title="Technologies"
+							subtitle="20+ Specialized"
+							Icon={FiUsers}
+						/>
 						<Card
 							title="Projects"
-							subtitle="80+ completed"
+							subtitle="10+ completed"
 							Icon={VscFolderLibrary}
 						/>
 					</div>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-						ea, officiis sunt ut rerum suscipit asperiores amet mollitia!
-						Mollitia ab cupiditate illum quam omnis esse excepturi tempora,
-						eligendi minus repellat.
+						We are your best alternative on software development, growing faster
+						our multidisciplinary profesional team offers you solutions to start
+						or mantain your apps projects in order to make client's life easier
+						as posible, with high quality products that shines in intuitive,
+						design, speed, originality, flexibility and support post delivery.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk
