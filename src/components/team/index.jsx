@@ -41,7 +41,7 @@ function Team() {
 			subtitle: "Fullstack Developer",
 			description:
 				"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
-			image: "img/manu.png",
+			image: "img/manuel.png",
 			cv: "docs/manu.pdf",
 			strengs: ["Python", "Angular", "C#", ".NET", "Xamarin"],
 			socials: [

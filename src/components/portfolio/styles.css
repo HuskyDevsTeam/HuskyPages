@@ -22,6 +22,9 @@
     overflow: hidden;
     border-radius: 1.5rem;
 }
+.portfolio__item-image img {
+    object-fit: cover;
+}
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
