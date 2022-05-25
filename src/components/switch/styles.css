@@ -39,3 +39,9 @@
     padding-top: .4rem;
     background: transparent;
 }
+
+@media screen and (max-width:600px) {
+    .switch{
+        top: 0;
+    }
+}

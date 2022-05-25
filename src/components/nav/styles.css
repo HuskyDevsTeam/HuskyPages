@@ -11,7 +11,17 @@ nav{
     display: flex;
     gap: 0.2rem;
     border-radius: 3rem;
+    -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
+
+}
+
+@supports (not (backdrop-filter: blur(15px))) {
+
+    /* REVISED */
+    nav{
+        background:var(--color-nav-f)
+    }
 
 }
 

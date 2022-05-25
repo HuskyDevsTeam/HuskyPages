@@ -6,6 +6,7 @@ const dayTheme = {
     style:{
         "--color-bg": "#fff",
         "--color-nav": "#ccc3",
+        "--color-nav-f": "#ddd8",
         "--color-bg-variant": "#eeec",
         "--color-primary": "#1696ff",
         "--color-primary-variant": "#0022b860",
@@ -19,6 +20,7 @@ const nightTheme = {
 	style: {
         "--color-bg": "#111",
         "--color-nav": "#3332",
+        "--color-nav-f": "#3339",
 		"--color-bg-variant": "#0009",
 		"--color-primary": "#1696ff",
 		"--color-primary-variant": "#0022b860",

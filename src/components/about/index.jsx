@@ -18,7 +18,13 @@ function About() {
 			<h2>About us</h2>
 			<div className="container about__container">
 				<div className="about__me">
-					<img className="about__me-image" src="" alt="About image" />
+					<iframe
+					title="wolf3d"
+						src="https://my.spline.design/wolf-5515a60ffbf6dadcf213ba0025f963d4/"
+						frameBorder="0"
+						width="100%"
+						height="100%"
+					></iframe>
 				</div>
 				<div className="about__content">
 					<div className="about__cards">
