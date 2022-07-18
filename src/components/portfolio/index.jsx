@@ -16,7 +16,7 @@ const IMAGES = [
 		url: "img/portfolio2.jpg",
 		live: "https://campusproductivity.com",
 		repo: "https://github.com/manuelrrk/KoachTeam3",
-		title: "E-learning web app for a client using Django, Python and MySQL \n Username:test \n Password:test",
+		title: "E-learning web app for a client using Django, Python and MySQL \n Username:alumnoprueba1 \n Password:Ps00001",
 	},
 	{
 		color: "#16ee66",
