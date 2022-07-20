@@ -11,10 +11,8 @@ function Header() {
 		<header id="header" style={style}>
 			<div className="container header__container">
 				<h5>Welcome, we are</h5>
-				<div className="logotipo">
-					<img src="img/husky_logotipo.png" alt="yo" />
-				</div>
-				{/* <h1>Husky Developers</h1> */}
+				<h1 className="title"><span className="name">HUSKY</span>DEV</h1>
+				<h2 className="title">TEAM</h2>
 				<h5>A Software Company</h5>
 				<CTA />
 				<HeaderSocials />

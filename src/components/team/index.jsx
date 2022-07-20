@@ -65,8 +65,8 @@ function Team() {
 				{ name: "instagram", url: "https://instagram.com/chemimartinez10" },
 				{ name: "github", url: "https://github.com/chemimartinez10" },
 			],
-			color: "#ff9616",
-			subcolor: "#b80c00",
+			color: "#9a43e8",
+			subcolor: "#8339c7",
 		},
 	]
 	return (

@@ -3,11 +3,17 @@ header {
     padding-top: 7rem;
     overflow: hidden;
 }
-
+span.name{
+    font-weight: 800;
+}
 .header__container {
     text-align: center;
     height: 100%;
     position: relative;
+}
+.title{
+    font-weight: 600;
+    text-shadow: 2px 2px 2px var(--color-shadow);
 }
 
 /* CTA */
@@ -54,7 +60,7 @@ header {
 }
 
 .me img {
-    width: 35rem;
+    width: 30rem;
     object-fit: cover;
 }
 
