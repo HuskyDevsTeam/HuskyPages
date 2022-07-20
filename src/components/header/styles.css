@@ -39,7 +39,7 @@ header {
 }
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-bg), transparent);
     width: 22rem;
     height: 22rem;
     position: absolute;
@@ -50,14 +50,23 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .me img {
-    width: 20rem;
+    width: 35rem;
     object-fit: cover;
 }
 
+.logotipo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo img{
+    width: 22rem;
+}
 .scroll__down {
     position: absolute;
     right: -2.3rem;

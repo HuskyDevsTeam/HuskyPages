@@ -16,7 +16,8 @@ const IMAGES = [
 		url: "img/portfolio2.jpg",
 		live: "https://campusproductivity.com",
 		repo: "https://github.com/manuelrrk/KoachTeam3",
-		title: "E-learning web app for a client using Django, Python and MySQL \n Username:alumnoprueba1 \n Password:Ps00001",
+		title:
+			"E-learning web app for a client using Django, Python and MySQL \n Username:alumnoprueba1 \n Password:Ps00001",
 	},
 	{
 		color: "#16ee66",
@@ -46,9 +47,9 @@ const IMAGES = [
 		color: "#16ee66",
 		subcolor: "#25aa00",
 		url: "img/portfolio6.jpg",
-		live: "#",
-		repo: "#",
-		title: "",
+		live: "https://django-workbook.herokuapp.com/",
+		repo: "https://github.com/chemimartinez10/django-workbook",
+		title: "To-Do lists app to share with coworkers. Django, Python and Postgress, enter and create your own account",
 	},
 ]
 

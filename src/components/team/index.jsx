@@ -24,7 +24,7 @@ function Team() {
 			title: "Luis Vásquez",
 			subtitle: "Frontend Developer",
 			description:
-				"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
+			"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
 			image: "img/luis.png",
 			cv: "docs/luis.pdf",
 			strengs: ["Bootstrap", "VueJS", "CSS", "UX Design", "UI Design"],
@@ -51,6 +51,22 @@ function Team() {
 			],
 			color: "#16ee66",
 			subcolor: "#25aa00",
+		},
+		{
+			title: "Karen Cabello",
+			subtitle: "Graphic designer",
+			description:
+				"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
+			image: "img/karen.png",
+			cv: "docs/karen.pdf",
+			strengs: ["Photoshop", "Creative design", "Social media management", "Laravel"],
+			socials: [
+				{ name: "facebook", url: "https://facebook.com/chemi.martinez.3" },
+				{ name: "instagram", url: "https://instagram.com/chemimartinez10" },
+				{ name: "github", url: "https://github.com/chemimartinez10" },
+			],
+			color: "#ff9616",
+			subcolor: "#b80c00",
 		},
 	]
 	return (
