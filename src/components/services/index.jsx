@@ -21,14 +21,14 @@ const SERVICES = [
 		color: "#1696ff",
 		subcolor: "#0022b8",
 		services: [
-			"Avanced animations",
+			"Advanced animations",
 			"Responsive apps/webpages",
 			"Single Page Application",
 			"Server Side Rendering",
 			"Website/App deployment",
 			"UI atomic components",
 			"API development",
-			"DevOps & Server Settings",
+			"DevOps & Server Setup",
 		],
 	},
 	{

@@ -8,12 +8,15 @@ function Team() {
 			title: "Chemi Martínez",
 			subtitle: "Fullstack Developer",
 			description:
-				"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
+				"26 years old, Web developer focused on improve everyday. Loving soccer, videogames, coding and cook.",
 			image: "img/chemi.png",
 			cv: "docs/chemi.pdf",
 			strengs: ["Python", "ReactJS", "Django", "Laravel", "NodeJS"],
 			socials: [
-				{ name: "facebook", url: "https://facebook.com/chemi.martinez.3" },
+				{
+					name: "linkedin",
+					url: "https://www.linkedin.com/in/chemi-martinez-ff9616/",
+				},
 				{ name: "instagram", url: "https://instagram.com/chemimartinez10" },
 				{ name: "github", url: "https://github.com/chemimartinez10" },
 			],
@@ -23,15 +26,13 @@ function Team() {
 		{
 			title: "Luis Vásquez",
 			subtitle: "Frontend Developer",
-			description:
-			"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
+			description: "26. Systems engineer. Living one day at a time.",
 			image: "img/luis.png",
-			cv: "docs/luis.pdf",
 			strengs: ["Bootstrap", "VueJS", "CSS", "UX Design", "UI Design"],
 			socials: [
+				{ name: "linkedin", url: "https://linkedin.com/" },
 				{ name: "facebook", url: "https://facebook.com/chemi.martinez.3" },
 				{ name: "github", url: "https://github.com/chemimartinez10" },
-				{ name: "linkedin", url: "https://linkedin.com/" },
 			],
 			color: "#1696ff",
 			subcolor: "#0022b8",
@@ -40,14 +41,13 @@ function Team() {
 			title: "Manuel Farias",
 			subtitle: "Fullstack Developer",
 			description:
-				"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
+				"Software engineer with a fascination for solving and optimizing solutions",
 			image: "img/manuel.png",
-			cv: "docs/manu.pdf",
 			strengs: ["Python", "Angular", "C#", ".NET", "Xamarin"],
 			socials: [
+				{ name: "linkedin", url: "https://linkedin.com/" },
 				{ name: "instagram", url: "https://instagram.com/chemimartinez10" },
 				{ name: "github", url: "https://github.com/chemimartinez10" },
-				{ name: "linkedin", url: "https://linkedin.com/" },
 			],
 			color: "#16ee66",
 			subcolor: "#25aa00",
@@ -56,14 +56,18 @@ function Team() {
 			title: "Karen Cabello",
 			subtitle: "Graphic designer",
 			description:
-				"Tengo 26 años, venezolano, me encanta el futbol, los videojuegos y la música, siempre estoy buscando cosas que aprender",
+				"I'm a 26 year old freelancer, I focus mainly on photo and cartoon editing. I enjoy spending time researching about design, cooking new recipes and watching movies.",
 			image: "img/karen.png",
 			cv: "docs/karen.pdf",
-			strengs: ["Photoshop", "Creative design", "Social media management", "Laravel"],
+			strengs: [
+				"Adobe suite",
+				"Creative design",
+				"Social media management",
+				"UI Design",
+			],
 			socials: [
-				{ name: "facebook", url: "https://facebook.com/chemi.martinez.3" },
+				{ name: "linkedin", url: "https://facebook.com/chemi.martinez.3" },
 				{ name: "instagram", url: "https://instagram.com/chemimartinez10" },
-				{ name: "github", url: "https://github.com/chemimartinez10" },
 			],
 			color: "#9a43e8",
 			subcolor: "#8339c7",

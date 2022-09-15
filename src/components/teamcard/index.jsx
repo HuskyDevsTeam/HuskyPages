@@ -13,8 +13,8 @@ function Teamcard ({title, subtitle, description, image, strengs, socials, cv, c
 				}}
 			>
 				<div className="card__header">
-                    <HeaderSocials socials={socials}/>
-                    <CV CV={cv}/>
+					<HeaderSocials socials={socials} />
+					{cv ? <CV CV={cv} />:""}
 					<div className="card__img-container">
 						<img src={image} alt="me profile picture" />
 					</div>
@@ -27,7 +27,7 @@ function Teamcard ({title, subtitle, description, image, strengs, socials, cv, c
 					<div className="card__separator"></div>
 					<p>{description}</p>
 					<div className="card__separator"></div>
-					<small>Se destaca en</small>
+					<small>Is highlighted in</small>
 					<ul>
 						{strengs.map((topic) => (
 							<li key={topic}>{topic}</li>

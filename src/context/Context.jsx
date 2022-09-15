@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 const Context = React.createContext({})
 const dayTheme = {
@@ -31,14 +31,30 @@ const nightTheme = {
 }
 
 export function ThemeContextProvider({ children }) {
+
+    useEffect(()=>{
+        let theme = localStorage.getItem('huskyTheme')
+        if(!theme){
+            localStorage.setItem('huskyTheme', 'day')
+        }
+        if(theme === 'day'){
+            setDay(dayTheme)
+        }
+        if(theme === 'night'){
+            setDay(nightTheme)
+        }
+    },[])
+    
 	const [day, setDay] = useState(dayTheme)
     const changeTheme = ()=>{
         if (day === dayTheme){
             setDay(nightTheme)
+            localStorage.setItem('huskyTheme', 'night')
             
         }
         if(day === nightTheme){
             setDay(dayTheme)
+            localStorage.setItem('huskyTheme', 'day')
         }
     }
 	return <Context.Provider value={{ day:day.day, style:day.style, changeTheme }}>{children}</Context.Provider>

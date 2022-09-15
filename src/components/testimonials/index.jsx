@@ -9,33 +9,28 @@ import "swiper/css/pagination"
 const CLIENTS = [
 	{
 		avatar: "img/avatar1.png",
-		name: "Jhon Doe",
-		review:
-			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus itaque quis quo ipsa tempora tempore deleniti, ipsam architecto distinctio debitis voluptatum vitae vero reiciendis recusandae temporibus, doloribus delectus sint quos!",
+		name: "Andrés Zúñiga (Workhana User)",
+		title: "App Xamarin Forms",
+		review: "Very good disposition and flexibility",
 	},
 	{
 		avatar: "img/avatar2.png",
-		name: "Mary Anne",
-		review:
-			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus itaque quis quo ipsa tempora temporvoluptatum vitae vero reiciendis recusandae temporibus, doloribus delectus sint quos!",
+		name: "Alí Palacios (President of Koach Soluciones Integrales, C.A.)",
+		title: "Django E-Learning software",
+		review: "Pleasant and very professional teamwork as well as the results.",
 	},
 	{
 		avatar: "img/avatar3.png",
-		name: "Kendall Yu",
+		title: "Web-based personnel and equipment management system",
+		name: "Gerardo Carrasquero (President of Inversiones y Construcciones Suramerica, C.A.",
 		review:
-			"Lorem, ipsum dng elit. Natus itaque quis quo ipsa tempora tempore deleniti, ipsam architecto distinctio debitis voluptatum vitae vero reiciendis recusandae temporibus, doloribus delectus sint quos!",
+			"MARS is an excellent app to bring more efficiency to our business and let us make best strategic decisions",
 	},
 	{
 		avatar: "img/avatar4.png",
 		name: "Evan McAggie",
 		review:
 			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus itaque quis quo ipsa o reiciendis recusandae temporibus, doloribus delectus sint quos!",
-	},
-	{
-		avatar: "img/avatar5.png",
-		name: "Stephen Clue",
-		review:
-			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus itaque quis quo ipsa tempora tempore deleniti,!",
 	},
 ]
 
@@ -51,15 +46,17 @@ function Testimonials() {
 				spaceBetween={40}
 				slidesPerView={1}
 			>
-				{CLIENTS.map(({ avatar, name, review }, index) => {
+				{CLIENTS.map(({ avatar, name, title, review }, index) => {
 					return (
 						<SwiperSlide key={index}>
 							<article className="testimonial">
 								<div className="client-avatar">
 									<img src={avatar} alt="client avatar" />
 								</div>
-								<h5 className="client-name">{name}</h5>
+								{title ? <h4>{title}</h4>:""}
 								<small className="client-review">{review}</small>
+								<br />
+								<h5 className="client-name">{name}</h5>
 							</article>
 						</SwiperSlide>
 					)
