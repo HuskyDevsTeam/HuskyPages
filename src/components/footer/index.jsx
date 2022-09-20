@@ -2,7 +2,7 @@ import React from "react"
 import "./styles.css"
 import { FaFacebook } from "react-icons/fa"
 import { FiInstagram } from "react-icons/fi"
-import { IoLogoTwitter } from "react-icons/io"
+import { IoLogoGithub } from "react-icons/io"
 
 function Footer() {
 	return (
@@ -34,14 +34,14 @@ function Footer() {
 				</li>
 			</ul>
 			<div className="footer__socials">
-				<a href="https://facebook.com">
+				<a href="https://facebook.com/huskydevteam">
 					<FaFacebook />
 				</a>
-				<a href="https://instagram.com">
+				<a href="https://instagram.com/huskydevteam">
 					<FiInstagram />
 				</a>
-				<a href="https://twitter.com">
-					<IoLogoTwitter />
+				<a href="https://github.com/huskydevteam">
+					<IoLogoGithub />
 				</a>
 			</div>
 			<div className="footer__copyright">

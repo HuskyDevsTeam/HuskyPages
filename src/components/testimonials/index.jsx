@@ -26,12 +26,6 @@ const CLIENTS = [
 		review:
 			"MARS is an excellent app to bring more efficiency to our business and let us make best strategic decisions",
 	},
-	{
-		avatar: "img/avatar4.png",
-		name: "Evan McAggie",
-		review:
-			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus itaque quis quo ipsa o reiciendis recusandae temporibus, doloribus delectus sint quos!",
-	},
 ]
 
 function Testimonials() {

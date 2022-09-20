@@ -49,8 +49,8 @@ function Contact() {
 						color="#1696ff"
 						subcolor="#0022b8"
 						name="Messenger"
-						username="husky.developers"
-						url="https://m.me/chemi.martinez.3"
+						username="huskydevteam"
+						url="https://m.me/huskydevteam"
 					/>
 					<ContactCard
 						Icon={BsWhatsapp}

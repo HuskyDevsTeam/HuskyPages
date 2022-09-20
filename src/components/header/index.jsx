@@ -14,7 +14,6 @@ function Header() {
 				<h1 className="title"><span className="name">HUSKY</span>DEV</h1>
 				<h2 className="title">TEAM</h2>
 				<h5>A Software Company</h5>
-				<CTA />
 				<HeaderSocials />
 				<div className="me">
 					<img src="img/husky_isologo.png" alt="yo" />
