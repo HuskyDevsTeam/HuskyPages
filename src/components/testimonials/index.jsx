@@ -9,7 +9,7 @@ import "swiper/css/pagination"
 const CLIENTS = [
 	{
 		avatar: "img/avatar1.png",
-		name: "Andrés Zúñiga (Workhana User)",
+		name: "Andrés Zúñiga (Workana User)",
 		title: "App Xamarin Forms",
 		review: "Very good disposition and flexibility",
 	},

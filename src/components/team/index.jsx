@@ -30,9 +30,8 @@ function Team() {
 			image: "img/luis.png",
 			strengs: ["Bootstrap", "VueJS", "CSS", "UX Design", "UI Design"],
 			socials: [
-				{ name: "linkedin", url: "https://linkedin.com/" },
-				{ name: "facebook", url: "https://facebook.com/chemi.martinez.3" },
-				{ name: "github", url: "https://github.com/chemimartinez10" },
+				{ name: "linkedin", url: "https://www.linkedin.com/in/vasqale/" },
+				{ name: "facebook", url: "https://www.facebook.com/Vasqale" },
 			],
 			color: "#1696ff",
 			subcolor: "#0022b8",
@@ -41,13 +40,16 @@ function Team() {
 			title: "Manuel Farias",
 			subtitle: "Fullstack Developer",
 			description:
-				"Software engineer with a fascination for solving and optimizing solutions",
+				"Software engineer with a fascination for solving problems and optimizing solutions",
 			image: "img/manuel.png",
 			strengs: ["Python", "Angular", "C#", ".NET", "Xamarin"],
 			socials: [
-				{ name: "linkedin", url: "https://linkedin.com/" },
-				{ name: "instagram", url: "https://instagram.com/chemimartinez10" },
-				{ name: "github", url: "https://github.com/chemimartinez10" },
+				{
+					name: "linkedin",
+					url: "https://www.linkedin.com/in/manuel-farias-255930124/",
+				},
+				{ name: "instagram", url: "https://www.instagram.com/manuel.farias.m" },
+				{ name: "github", url: "https://github.com/manuelrrk" },
 			],
 			color: "#16ee66",
 			subcolor: "#25aa00",
@@ -66,8 +68,7 @@ function Team() {
 				"UI Design",
 			],
 			socials: [
-				{ name: "linkedin", url: "https://facebook.com/chemi.martinez.3" },
-				{ name: "instagram", url: "https://instagram.com/chemimartinez10" },
+				
 			],
 			color: "#9a43e8",
 			subcolor: "#8339c7",

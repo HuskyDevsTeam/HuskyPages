@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaGithub} from 'react-icons/fa'
-import { BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs"
+import { BsFacebook, BsInstagram } from "react-icons/bs"
 
 function HeaderSocials() {
   return (

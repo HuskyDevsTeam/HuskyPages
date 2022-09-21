@@ -5,6 +5,9 @@ import { FaAward } from "react-icons/fa"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
 
+const Spline = React.lazy(() => import("@splinetool/react-spline"))
+import { Suspense } from "react"
+
 function About() {
 	return (
 		<section
@@ -18,13 +21,16 @@ function About() {
 			<h2>About us</h2>
 			<div className="container about__container">
 				<div className="about__me">
-					<iframe
-					title="wolf3d"
+					{/* <iframe
 						src="https://my.spline.design/wolf-5515a60ffbf6dadcf213ba0025f963d4/"
-						frameBorder="0"
+						frameborder="0"
 						width="100%"
 						height="100%"
-					></iframe>
+						target="_blank"
+					></iframe> */}
+					<Suspense fallback={<div>Loading...</div>}>
+						<Spline scene="https://prod.spline.design/zmJP2M3U6dJrB8nG/scene.splinecode" />
+					</Suspense>
 				</div>
 				<div className="about__content">
 					<div className="about__cards">

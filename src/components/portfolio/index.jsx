@@ -23,7 +23,7 @@ const IMAGES = [
 		color: "#16ee66",
 		subcolor: "#25aa00",
 		url: "img/portfolio3.jpg",
-		live: "https://huskychat-php-production.up.railway.app/",
+		live: "",
 		repo: "https://github.com/chemimartinez10/huskychat-php",
 		title: "Realtime chat with PHP and JS",
 	},
@@ -77,13 +77,11 @@ function Portfolio() {
 								<a href={repo} className="btn" target="_blank">
 									Github
 								</a>
-								<a
-									href={live}
-									className="btn btn-primary"
-									target="_blank"
-								>
-									Live Demo
-								</a>
+								{live && (
+									<a href={live} className="btn btn-primary" target="_blank">
+										Live Demo
+									</a>
+								)}
 							</div>
 						</article>
 					)
