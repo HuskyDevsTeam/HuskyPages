@@ -22,7 +22,7 @@ const CLIENTS = [
 	{
 		avatar: "img/avatar3.png",
 		title: "Web-based personnel and equipment management system",
-		name: "Gerardo Carrasquero (President of Inversiones y Construcciones Suramerica, C.A.",
+		name: "Gerardo Carrasquero (President of Inversiones y Construcciones Suramerica, C.A.)",
 		review:
 			"MARS is an excellent app to bring more efficiency to our business and let us make best strategic decisions",
 	},

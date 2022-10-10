@@ -49,7 +49,32 @@ const IMAGES = [
 		url: "img/portfolio6.jpg",
 		live: "https://django-workbook.herokuapp.com/",
 		repo: "https://github.com/chemimartinez10/django-workbook",
-		title: "To-Do lists app to share with coworkers. Django, Python and Postgress, enter and create your own account",
+		title:
+			"To-Do lists app to share with coworkers. Django, Python and Postgress, enter and create your own account",
+	},
+	{
+		color: "#ff9616",
+		subcolor: "#b80c00",
+		url: "img/portfolio7.png",
+		live: "https://smarthome1806.netlify.app",
+		repo: "https://github.com/DonPasticho/SmartHome--Vue--Tw-",
+		title: "Webpage design, built on Vue 3 and tailwind CSS",
+	},
+	{
+		color: "#1696ff",
+		subcolor: "#0022b8",
+		url: "img/portfolio8.png",
+		live: "https://reactportofolio1806.netlify.app",
+		repo: "https://github.com/DonPasticho/React-Portafolio",
+		title: "Portfolio example, built on NextJs",
+	},
+	{
+		color: "#16ee66",
+		subcolor: "#25aa00",
+		url: "img/portfolio9.png",
+		live: "https://minimalblog1806.netlify.app",
+		repo: "https://github.com/DonPasticho/Minimal-Blog",
+		title: "Minimalistic blog design, built on Vue 3 and tailwind CSS",
 	},
 ]
 
