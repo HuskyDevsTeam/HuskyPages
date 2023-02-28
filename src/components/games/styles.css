@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.games__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.game__item {
+    position: relative;
+    background: var(--color-bg);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 8px var(--color-shadow);
+    transition: border var(--animation-speed),
+        background var(--animation-speed);
+    overflow: hidden;
+}
+
+
+.game__item:hover {
+    background: var(--color-primary);
+    box-shadow: 0 0 8px var(--color-primary-variant);
+}
+
+.game__item:hover .game__item-cta {
+    opacity: 1;
+}
+
+.game__item-image {
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.game__item-image img {
+    object-fit: cover;
+}
+
+.game__item h3 {
+    margin: 1.2rem 0 0;
+    text-align: center;
+        font-family: 'Silkscreen', cursive;
+        font-size: 1.5rem;
+}
+
+.game__item-cta {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    background: #0008;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transition: opacity .5s linear;
+}
+
+/* MEDIA QUERTIES */
+
+@media screen and (max-width:1024px) {
+    .games__container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+}
+
+/* 
+@media screen and (max-width:600px) {
+    .games__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+} */
+
+/* SNAKE STYLES */
+.contenedor {
+    font-family: 'Silkscreen', cursive;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #96c6af;
+    background: #284b5d;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#cortina {
+    display: none;
+}
+
+#cortina.cortina {
+    display: flex;
+}
+
+.contenedor .legend {
+    width: 100%;
+    max-width: 65vmin;
+}
+
+.legend p {
+    font-size: .7rem;
+    padding: .25rem;
+    text-align: center;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.contenedor .cortina {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: .5rem;
+    background: #0002;
+    backdrop-filter: blur(2px);
+}
+
+.contenedor .score-board {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.contenedor .play-area {
+    display: grid;
+    background: #4d9699;
+    width: 65vmin;
+    height: 65vmin;
+    grid-template: repeat(20, 1fr)/repeat(20, 1fr);
+}
+
+.contenedor .controls {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: .5rem;
+    gap: .5rem;
+}
+
+.controls-container {
+    display: flex;
+    gap: .5rem;
+}
+
+.controls-container i {
+    background-color: #05191a;
+    padding: .6rem .7rem;
+    border-radius: 5px;
+}
+
+.play-area .fruit {
+    background-color: rgb(255, 80, 80);
+    border-radius: 50%;
+}
+
+.play-area .head {
+    background: #dae0cd;
+}
+
+@media screen and (max-width: 800px) {
+    
+    
+    .contenedor .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        flex-direction: column;
+        padding: .5rem;
+        gap: .5rem;
+    }
+    
+    .contenedor .score-board {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contenedor .play-area {
+            width: 80vmin;
+            height: 80vmin;
+        }
+    
+        .contenedor .legend {
+    
+            max-width: 80vmin;
+        }
+}
+
+@media (hover:none) {
+    .contenedor .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        flex-direction: column;
+        padding: .5rem;
+        gap: .5rem;
+    }
+    .legend{
+        display: none;
+    }
+}

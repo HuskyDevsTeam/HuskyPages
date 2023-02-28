@@ -6,6 +6,7 @@ import About from "./components/about/index"
 import Contact from "./components/contact/index"
 import Experience from "./components/experience/index"
 import Portfolio from "./components/portfolio/index"
+import Games from "./components/games/index"
 import Services from "./components/services/index"
 import Team from "./components/team/index"
 import Testimonials from "./components/testimonials/index"
@@ -23,6 +24,7 @@ function App() {
 				<About />
 				<Experience />
 				<Portfolio />
+				<Games/>
 				<Services />
 				<Team />
 				<Testimonials />

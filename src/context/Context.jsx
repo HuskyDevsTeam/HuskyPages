@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect,useLayoutEffect } from "react"
 
 const Context = React.createContext({})
 const dayTheme = {
@@ -32,7 +32,7 @@ const nightTheme = {
 
 export function ThemeContextProvider({ children }) {
 
-    useEffect(()=>{
+    useLayoutEffect(()=>{
         let theme = localStorage.getItem('huskyTheme')
         if(!theme){
             localStorage.setItem('huskyTheme', 'day')
