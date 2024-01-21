@@ -3,6 +3,23 @@ import "./styles.css"
 
 const IMAGES = [
 	{
+		color: "#1696ff",
+		subcolor: "#0022b8",
+		url: "img/portfolio10.jpg",
+		live: "https://ganaconivan.com",
+		repo: "",
+		title:
+			"Gana con ivan, raffle website",
+	},
+	{
+		color: "#16ee66",
+		subcolor: "#25aa00",
+		url: "img/portfolio11.jpg",
+		live: "https://libling.lu",
+		repo: "",
+		title: "Relocation website in luxembourg ",
+	},
+	{
 		color: "#ff9616",
 		subcolor: "#b80c00",
 		url: "img/portfolio1.jpg",
@@ -84,7 +101,7 @@ function Portfolio() {
 			<h5>Our Last Works</h5>
 			<h2>Portfolio</h2>
 			<div className="container portfolio__container">
-				{IMAGES.map(({title, color, subcolor, url, live, repo}, index) => {
+				{IMAGES.map(({ title, color, subcolor, url, live, repo }, index) => {
 					return (
 						<article
 							key={index}
@@ -99,9 +116,12 @@ function Portfolio() {
 							</div>
 							<h3>{title}</h3>
 							<div className="portfolio__item-cta">
-								<a href={repo} className="btn" target="_blank">
-									Github
-								</a>
+								{
+									repo &&
+									<a href={repo} className="btn" target="_blank">
+										Github
+									</a>
+								}
 								{live && (
 									<a href={live} className="btn btn-primary" target="_blank">
 										Live Demo
