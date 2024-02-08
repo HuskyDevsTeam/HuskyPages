@@ -58,7 +58,7 @@ function Contact() {
 						subcolor="#25aa00"
 						name="Whatsapp"
 						username="(+58) 412-081-9758"
-						url="https://api.whatsapp.com/send?phone=+584120819758"
+						url="https://api.whatsapp.com/send?phone=584120819758"
 					/>
 				</div>
 				<form ref={form} onSubmit={sendEmail}>
