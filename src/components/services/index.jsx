@@ -17,7 +17,7 @@ const SERVICES = [
 		],
 	},
 	{
-		title: "Web Development",
+		title: "Development",
 		color: "#1696ff",
 		subcolor: "#0022b8",
 		services: [

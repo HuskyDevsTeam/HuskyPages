@@ -1,0 +1,108 @@
+.product__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15%;
+    min-height: 80vh;
+}
+
+.product__me {
+    width: 100%;
+    border-radius: 2rem;
+    aspect-ratio: 1/1;
+    background: transparent;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    flex-grow: 1;
+    max-height: 50vh;
+}
+.product__me img {
+    max-height: 50vh;
+    object-position: top center;
+    aspect-ratio: 1/1;
+}
+
+.product__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: transform var(--animation-speed);
+}
+
+.product__me:hover .product__me-image {
+    transform: rotate(0deg);
+}
+
+.product__cards {
+    display: grid;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(1, 165px); */
+    gap: 1.5rem;
+    max-height: 550px;
+}
+
+.product__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+.product__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+
+.product__info {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-variant);
+    border: 3px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: border var(--animation-speed), background var(--animation-speed);
+    max-height: 550px;
+}
+
+/* MEDIA QUERTIES */
+
+@media screen and (max-width:1024px) {
+    .product__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .product__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .product__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .product__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .product__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .product__content {
+        text-align: center;
+    }
+
+    .product__content p {
+        margin: 1.5rem 0;
+    }
+}

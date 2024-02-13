@@ -13,6 +13,8 @@ import Testimonials from "./components/testimonials/index"
 import Switch from "./components/switch"
 import { ThemeContextProvider } from "./context/Context"
 import './App.css'
+import Development from "./components/development"
+import Product from "./components/product"
 
 function App() {
 	return (
@@ -21,11 +23,13 @@ function App() {
 				<Switch />
 				<Header />
 				<Nav />
-				<About />
+				<Product/>
+				<Development/>
 				<Experience />
 				<Portfolio />
 				<Games/>
 				<Services />
+				<About />
 				<Team />
 				<Testimonials />
 				<Contact />

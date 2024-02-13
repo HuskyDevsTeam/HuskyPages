@@ -9,11 +9,10 @@ function Header() {
     <header id="header" style={style}>
       <div className="header__container container">
         <h5>Welcome, we are</h5>
-        <h1 className="title">
-          <span className="name">HUSKY</span>DEV
+        <h1 className="title" style={{paddingBottom:0}}>
+          <span className="name">HUSKY</span>DEVS
         </h1>
-        <h2 className="title">TEAM</h2>
-        <h5>A Software Company</h5>
+        <h5>Build the application of your dreams</h5>
         <HeaderSocials />
         <div className="me">
           <img src="img/husky_isologo.png" alt="yo" />

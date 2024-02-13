@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import "./styles.css"
-import { AiOutlineHome, AiOutlineUser, AiOutlineTeam } from "react-icons/ai"
+import { AiOutlineHome, AiOutlineUser, AiOutlineTeam, AiOutlineTool } from "react-icons/ai"
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi"
 import { RiServiceLine } from "react-icons/ri"
 
@@ -26,8 +26,8 @@ function Nav() {
 					if (entry.isIntersecting && entry.target.id == "header") {
 						setActiveNav("#")
 					}
-					if (entry.isIntersecting && entry.target.id == "about") {
-						setActiveNav("#about")
+					if (entry.isIntersecting && entry.target.id == "product") {
+						setActiveNav("#product")
 					}
 					if (entry.isIntersecting && entry.target.id == "experience") {
 						setActiveNav("#experience")
@@ -80,14 +80,14 @@ function Nav() {
 				<AiOutlineHome />
 			</a>
 			<a
-				href="#about"
-				className={activeNav === "#about" ? "active" : ""}
+				href="#product"
+				className={activeNav === "#product" ? "active" : ""}
 				onTouchStart={touchBegin}
 				onTouchEnd={touchEnd}
 				onMouseOver={touchBegin}
 				onMouseLeave={touchEnd}
 			>
-				<AiOutlineUser />
+				<AiOutlineTool />
 			</a>
 			<a
 				href="#experience"

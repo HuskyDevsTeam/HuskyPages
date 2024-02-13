@@ -7,6 +7,20 @@
     cursor: pointer;
     transition: border var(--animation-speed), background var(--animation-speed);
 }
+.about__card_rounded{
+    border-radius: 50%;
+    background: var(--color-bg-variant);
+    border: 3px solid transparent;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border var(--animation-speed), background var(--animation-speed);
+}
+
+.about__card_rounded:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
 
 .about__card:hover{
     border-color: var(--color-primary-variant);
@@ -17,6 +31,9 @@
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
+}
+.about__card_rounded .about__icon{
+    margin-bottom: 0rem;
 }
 
 .about__card h5{

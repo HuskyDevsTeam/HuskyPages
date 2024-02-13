@@ -12,7 +12,7 @@ function Experience() {
 			}}
 		>
 			<h5>Technologies We Have Worked</h5>
-			<h2>Our Experience</h2>
+			<h2>Our Experience at your service</h2>
 			<div className="container experience__container">
 				<div className="experience__frontend">
 					<h3>Frontend Development</h3>
