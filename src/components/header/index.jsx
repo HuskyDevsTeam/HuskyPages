@@ -12,7 +12,7 @@ function Header() {
         <h1 className="title" style={{paddingBottom:0}}>
           <span className="name">HUSKY</span>DEVS
         </h1>
-        <h5>Build the application of your dreams</h5>
+        <h5>Build the application of your dreams!</h5>
         <HeaderSocials />
         <div className="me">
           <img src="img/husky_isologo.png" alt="yo" />
