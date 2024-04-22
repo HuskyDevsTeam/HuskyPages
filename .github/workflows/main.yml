@@ -1,5 +1,8 @@
 name: Vite App Github Deploy
 
+permissions:
+  contents: write
+  
 on:
   push:
     branches:
@@ -7,6 +10,7 @@ on:
 
 jobs:
   build:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
 
     steps:
