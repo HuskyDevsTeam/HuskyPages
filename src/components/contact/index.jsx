@@ -41,8 +41,8 @@ function Contact() {
 						color="#ff9616"
 						subcolor="#b80c00"
 						name="Email"
-						username="info@huskydevs.com"
-						url="mailto:info@huskydevs.com"
+						username="jmmartineztuarez@gmail.com"
+						url="mailto:jmmartineztuarez@gmail.com"
 					/>
 					<ContactCard
 						Icon={RiMessengerLine}
@@ -57,8 +57,8 @@ function Contact() {
 						color="#16ee66"
 						subcolor="#25aa00"
 						name="Whatsapp"
-						username="(+58) 412-081-9758"
-						url="https://api.whatsapp.com/send?phone=584120819758"
+						username="(+58) 412-967-1422"
+						url="https://api.whatsapp.com/send?phone=584129671422"
 					/>
 				</div>
 				<form ref={form} onSubmit={sendEmail}>
