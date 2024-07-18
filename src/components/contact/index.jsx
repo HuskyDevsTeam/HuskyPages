@@ -41,8 +41,8 @@ function Contact() {
 						color="#ff9616"
 						subcolor="#b80c00"
 						name="Email"
-						username="jmmartineztuarez@gmail.com"
-						url="mailto:jmmartineztuarez@gmail.com"
+						username="huskydevs@outlook.com"
+						url="mailto:huskydevs@outlook.com"
 					/>
 					<ContactCard
 						Icon={RiMessengerLine}
