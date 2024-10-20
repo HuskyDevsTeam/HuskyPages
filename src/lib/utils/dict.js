@@ -20,6 +20,12 @@ export const dict = {
             terms_of_use:"Terms of Use",
             rights:"© 2024 Husky Devs. All rights reserved.",
         },
+        section_1:{
+            section_title:"profesional team",
+            article_title:"We just create your dream app",
+            article_text:"We are your best alternative on software development, with high quality products that shines in intuitive, design, speed and originality.",
+            article_button:"Let's talk"
+        }
     },
     es:{
         layout: {
@@ -41,6 +47,12 @@ export const dict = {
             privacy_policy: "Política de Privacidad",
             terms_of_use: "Términos de Uso",
             rights: "© 2024 Husky Devs. Todos los derechos reservados.",
-        },        
+        },
+        section_1: {
+            section_title: "equipo profesional",
+            article_title: "Creamos tu aplicación soñada",
+            article_text: "Somos tu mejor alternativa en desarrollo de software, con productos de alta calidad que destacan en intuición, diseño, velocidad y originalidad.",
+            article_button: "Hablemos"
+        }      
     }
 }

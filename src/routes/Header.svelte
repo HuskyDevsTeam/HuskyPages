@@ -6,21 +6,39 @@
 	import { getContext, onMount } from 'svelte';
 	import LanguageSelector from './LanguageSelector.svelte';
 	import ThemeSelector from './ThemeSelector.svelte';
-  	import { LogoFacebook, LogoInstagram, LogoGithub, MenuOutline } from 'svelte-ionicons';
+  	import { LogoFacebook, LogoInstagram, LogoGithub, MenuOutline, ArrowUp } from 'svelte-ionicons';
 
-	 let glosary = dict["en"]
+	let glosary = dict["en"]
+	let openMenu = false
 
 	/** @type {import('$lib/utils/types').DataContext} */
 	const { lang, theme } = getContext('ui_context');
 	lang.subscribe(el=>{
 		glosary = dict[el]
 	})
+	const toggleMenu = ()=>{
+		openMenu = !openMenu
+	}
+	$: menuMobileClass = openMenu ? "menu-mobile":"menu-mobile-hidden"
 </script>
 
-<header class="2xl:header-normal flex flex-row items-center justify-center">
-	<nav class="px-[32px] 2xl:px-0 flex flex-row-reverse md:flex-row items-center justify-between text-base leading-6 tracking-wide h-[68px] 2xl:max-w-[1288px] grow gap-6">
+<header class="xl:header-normal flex flex-row items-center justify-center absolute left-0 right-0 top-0 z-20">
+	<nav class="px-[32px] xl:px-0 flex flex-row-reverse md:flex-row items-center justify-between text-base leading-6 tracking-wide h-[68px] xl:max-w-[1288px] grow gap-6">
+		<div class="xl:hidden {menuMobileClass} overflow-y-scroll">
+			<button on:click={toggleMenu}>
+				<ArrowUp color={'var(--color-icon-primary)'} size={24}/>
+			</button>
+			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_1}</a>
+			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_2}</a>
+			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_3}</a>
+			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_4}</a>
+			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_5}</a>
+			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_6}</a>
+			<ThemeSelector/>
+			<LanguageSelector/>
+		</div>
 		<!-- hamburguer menu -->
-		<button class="button-active button-small 2xl:hidden">
+		<button class="button-active button-small xl:hidden" on:click={toggleMenu}>
 			<MenuOutline color={'var(--color-icon-primary-invert)'} size={20}/>
 		</button>
 		<!-- real navbar -->
@@ -28,7 +46,7 @@
 			<a href="#header">
 				<img class="w-[100px] h-[32px]" src={$theme === "dark" ? logoInvert : logo} alt="HuskyLogo" />
 			</a>
-			<ul class="2xl:flex flex-row hidden">
+			<ul class="xl:flex flex-row hidden">
 				<li class="px-4 py-6">
 					<a href="/">{glosary?.layout?.nav_item_1}</a>
 				</li>
