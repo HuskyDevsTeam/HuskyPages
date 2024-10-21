@@ -19,7 +19,7 @@
 				<div class="flex flex-col gap-6 items-center md:items-start">
 					<div class="flex flex-col gap-3 items-center md:items-start">
 						<h3 class="body-overline-medium text-color-brand">{glosary.section_1.section_title}</h3>
-						<h1 class="display-small-semibold text-color-primary">{glosary.section_1.article_title}</h1>
+						<h1 class="md:display-large-bold md:text-left display-small-semibold text-color-primary">{glosary.section_1.article_title}</h1>
 					</div>
 					<p class="text-center body-medium-regular text-color-secondary md:text-left">{glosary.section_1.article_text}</p>
 				</div>
