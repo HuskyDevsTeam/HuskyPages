@@ -1,7 +1,7 @@
 <script>
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
-	import { LogoWhatsapp, LogoInstagram, LogoLinkedin, LogoGithub } from 'svelte-ionicons'
+	import { LogoInstagram, LogoLinkedin, LogoGithub } from 'svelte-ionicons'
 	import teamChemi from '$lib/images/team_chemi.jpg'
 	import teamLuis from '$lib/images/team_luis.jpg'
 	import teamManuel from '$lib/images/team_manuel.jpg'
@@ -15,7 +15,7 @@
 		glosary = dict[el]
 	})
 
-	const list = [
+	$: list = [
 		{
 			title:glosary.section_5.team_title_1,
 			description:glosary.section_5.team_description_1,
@@ -61,8 +61,8 @@
 		<div class="flex flex-col xl:flex-row xl:items-center xl:gap-[110px] h-full w-full max-w-[1288px] z-10">
 			<article class="flex flex-col gap-14 items-center max-h-full">
 				<div class="flex flex-col gap-6 items-center px-5 md:px-8">
-					<h1 class="md:display-small-extrabold headline-medium-bold text-color-primary">{glosary.section_6.article_title}</h1>
-					<p class="text-center body-medium-regular text-color-secondary">{glosary.section_6.article_text}</p>
+					<h1 class="md:display-small-extrabold headline-medium-bold text-color-primary">{glosary.section_5.article_title}</h1>
+					<p class="text-center body-medium-regular text-color-secondary">{glosary.section_5.article_text}</p>
 				</div>
 				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-8 gap-y-12 gap-x-8">
 					{#each list as member}

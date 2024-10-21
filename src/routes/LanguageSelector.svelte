@@ -42,7 +42,7 @@
 	}
 	
 </script>
-<button class="flex xl:flex-row flex-col gap-0.5 justify-center items-center cursor-pointer py-0.5 xl:relative" on:click={toggleOpen}>
+<button class="flex md:flex-row flex-col gap-0.5 justify-center items-center cursor-pointer py-0.5 md:relative" on:click={toggleOpen}>
 	{#if $lang === "es"}
 		<img src={FLAG_ES} alt="FLAG_ES" class="w-[24px] h-[18px]">
 	{/if}
@@ -50,10 +50,10 @@
 		<img src={FLAG_EN} alt="FLAG_EN" class="w-[24px] h-[18px]">
 	{/if}
 	{#if open}
-		<div class="xl:block hidden">
+		<div class="md:block hidden">
 			<ChevronUp color={'var(--color-icon-primary)'} size={20}/>
 		</div>
-		<div class="xl:dropdown">
+		<div class="md:dropdown">
 			{#each languageList as languageItem}
 				<div class="py-4 px-2 flex flex-row gap-2" on:click={()=>{changeLanguage(languageItem.key)}}>
 					<img src={languageItem.flag} alt={languageItem.key}>
@@ -62,7 +62,7 @@
 			{/each}
 		</div>
 	{:else}
-		<div class="xl:block hidden">
+		<div class="md:block hidden">
 			<ChevronDown color={'var(--color-icon-primary)'} size={20}/>
 		</div>
 	{/if}

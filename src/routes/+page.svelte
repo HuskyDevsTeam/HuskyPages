@@ -1,7 +1,8 @@
 <script>
-import SectionContact from "./SectionContact.svelte";
-import SectionHero from "./SectionHero.svelte";
-import SectionTeam from "./SectionTeam.svelte";
+	import SectionContact from "./SectionContact.svelte";
+	import SectionHero from "./SectionHero.svelte";
+	import SectionTeam from "./SectionTeam.svelte";
+	import SectionTech from "./SectionTech.svelte";
 
 </script>
 
@@ -11,5 +12,6 @@ import SectionTeam from "./SectionTeam.svelte";
 </svelte:head>
 
 <SectionHero/>
+<SectionTech/>
 <SectionTeam/>
 <SectionContact/>

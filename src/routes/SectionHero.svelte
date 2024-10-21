@@ -3,6 +3,8 @@
 	import { getContext } from 'svelte';
 	import { LogoWhatsapp } from 'svelte-ionicons'
 	import personBanner from '$lib/images/person_banner_1.png'
+	import personBannerMd from '$lib/images/person_banner_md.png'
+	import personBannerSm from '$lib/images/person_banner_sm.png'
 	let glosary = dict["en"]
 
 	/** @type {import('$lib/utils/types').DataContext} */
@@ -29,7 +31,11 @@
 				</button>
 			</article>
 			<div class="relative pt-7 flex justify-end">
-				<img src={personBanner} alt="person-banner" class="w-[313px] min-w-[313px] md:w-[578px] xl:w-[550px] h-[372px] md:h-[720px] xl:h-[652px] z-10 relative">
+				<picture class="w-[313px] min-w-[313px] md:w-[578px] xl:w-[550px] h-[372px] md:h-[720px] xl:h-[652px] z-10 relative flex items-end justify-end">
+					<source media="(min-width:1320px)" srcset={personBanner}>
+					<source media="(min-width:580px)" srcset={personBannerMd}>
+					<img src={personBannerSm} alt="person-banner">
+				</picture>
 				<div class="absolute shape-color w-3/4 md:w-[480px] xl:w-[520px] h-[292px] md:h-[476px] xl:h-[800px] bottom-0 right-0 xl:-right-[112px]"></div>
 			</div>
 		</div>

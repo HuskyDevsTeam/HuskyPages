@@ -1383,7 +1383,7 @@
 	}
 	.dropdown{
 		position: absolute;
-		top: 100%; 
+		top: calc(100% + 16px); 
 		right:0px;
 		width: max-content;
 		background-color: var(--color-surface-contrast);

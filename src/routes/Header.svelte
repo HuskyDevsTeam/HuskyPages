@@ -34,8 +34,12 @@
 			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_4}</a>
 			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_5}</a>
 			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_6}</a>
-			<ThemeSelector/>
-			<LanguageSelector/>
+			<div class="md:hidden flex">
+				<ThemeSelector/>
+			</div>
+			<div class="md:hidden flex">
+				<LanguageSelector/>
+			</div>
 		</div>
 		<!-- hamburguer menu -->
 		<button class="button-active button-small xl:hidden" on:click={toggleMenu}>
