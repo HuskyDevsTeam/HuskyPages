@@ -20,14 +20,14 @@
 			<article class="flex flex-col gap-10 items-center md:items-start px-5 md:px-8 md:max-w-[770px]">
 				<div class="flex flex-col gap-6 items-center md:items-start">
 					<div class="flex flex-col gap-3 items-center md:items-start">
-						<h3 class="body-overline-medium text-color-brand">{glosary.section_1.section_title}</h3>
-						<h1 class="md:display-large-bold md:text-left display-small-semibold text-color-primary">{glosary.section_1.article_title}</h1>
+						<h3 class="body-overline-medium text-color-brand">{glosary.section_0.section_title}</h3>
+						<h1 class="md:display-large-bold md:text-left display-small-semibold text-color-primary">{glosary.section_0.article_title}</h1>
 					</div>
-					<p class="text-center body-medium-regular text-color-secondary md:text-left">{glosary.section_1.article_text}</p>
+					<p class="text-center body-medium-regular text-color-secondary md:text-left">{glosary.section_0.article_text}</p>
 				</div>
 				<button class="button-active button-large w-full md:max-w-[320px]">
 					<LogoWhatsapp color="var(--color-icon-primary-invert)" size={24}/>
-					<span>{glosary.section_1.article_button}</span>
+					<span>{glosary.section_0.article_button}</span>
 				</button>
 			</article>
 			<div class="relative pt-7 flex justify-end">

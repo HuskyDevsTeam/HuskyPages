@@ -1,6 +1,8 @@
 <script>
+	import SectionAchievements from "./SectionAchievements.svelte";
 	import SectionContact from "./SectionContact.svelte";
 	import SectionHero from "./SectionHero.svelte";
+	import SectionServices from "./SectionServices.svelte";
 	import SectionTeam from "./SectionTeam.svelte";
 	import SectionTech from "./SectionTech.svelte";
 
@@ -12,6 +14,8 @@
 </svelte:head>
 
 <SectionHero/>
+<SectionAchievements/>
+<SectionServices/>
 <SectionTech/>
 <SectionTeam/>
 <SectionContact/>

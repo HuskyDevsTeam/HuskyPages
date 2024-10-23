@@ -1325,7 +1325,30 @@
 		text-transform: none;
 		font-style: italic;
 	}
+	/* Shadows */
 	
+	.shadow-xs{
+		box-shadow: var(--shadow-xs), var(--shadow-xs);
+	}
+	.shadow-sm{
+		box-shadow: var(--shadow-sm), var(--shadow-sm);
+	}
+	.shadow-md{
+		box-shadow: var(--shadow-md), var(--shadow-md);
+	}
+	.shadow-lg{
+		box-shadow: var(--shadow-lg), var(--shadow-lg);
+	}
+	.shadow-xl{
+		box-shadow: var(--shadow-xl), var(--shadow-xl);
+	}
+	.shadow-2xl{
+		box-shadow: var(--shadow-2xl), var(--shadow-2xl);
+	}
+	/* Radius */
+	.radius-rounded{
+		border-radius: var(--radius-rounded);
+	}
 	/* Button color */
 	
 	button{
@@ -1392,15 +1415,15 @@
 		padding: var(--spacing-sm);
 		gap: var(--spacing-xs);
 		border-radius: var(--radius-rounded);
-		box-shadow: var(--shadow-md);
+		box-shadow: var(--shadow-md) , var(--shadow-md);
 	}
 	.menu-mobile{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: stretch;
-		width: 100vw;
-		height: 100vh;
+		width: 100dvw;
+		height: 100dvh;
 		position: fixed;
 		top: -100%;
 		left: 0px;
@@ -1427,8 +1450,8 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: stretch;
-		width: 100vw;
-		height: 100vh;
+		width: 100dvw;
+		height: 100dvh;
 		position: fixed;
 		top: -100%;
 		left: 0px;
