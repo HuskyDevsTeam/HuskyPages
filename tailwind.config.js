@@ -11,7 +11,7 @@ export default {
     },
     extend: {
       fontFamily: {
-          cascadia: ['SourceCodePro', 'monospace']
+        SourceCodePro: ['SourceCodePro', 'monospace']
       }
   }
   },

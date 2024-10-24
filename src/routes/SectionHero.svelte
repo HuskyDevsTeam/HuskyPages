@@ -14,7 +14,7 @@
 	})
 </script>
 
-<section class="bg-[url('/images/section_hero_background.jpeg')] bg-bottom md:bg-center bg-cover" >
+<section id="hero" class="bg-[url('/images/section_hero_background.jpeg')] bg-bottom md:bg-center bg-cover" >
 	<div class="max-w-[1512px] w-screen relative flex justify-center items-center bg-[var(--color-mask-primary)] overflow-hidden">
 		<div class="flex flex-col xl:flex-row xl:items-center h-full w-full max-w-[1288px] z-10 pt-[100px]">
 			<article class="flex flex-col gap-10 items-center md:items-start px-5 md:px-8 md:max-w-[770px]">
@@ -25,10 +25,10 @@
 					</div>
 					<p class="text-center body-medium-regular text-color-secondary md:text-left">{glosary.section_0.article_text}</p>
 				</div>
-				<button class="button-active button-large w-full md:max-w-[320px]">
+				<a href="https://wa.me/+584129671422" class="button button-active button-large w-full md:max-w-[320px]">
 					<LogoWhatsapp color="var(--color-icon-primary-invert)" size={24}/>
 					<span>{glosary.section_0.article_button}</span>
-				</button>
+				</a>
 			</article>
 			<div class="relative pt-7 flex justify-end">
 				<picture class="w-[313px] min-w-[313px] md:w-[578px] xl:w-[550px] h-[372px] md:h-[720px] xl:h-[652px] z-10 relative flex items-end justify-end">

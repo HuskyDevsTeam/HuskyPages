@@ -38,7 +38,7 @@
 	
 </script>
 
-<section class="relative">
+<section id="tech" class="relative">
 	<div class="max-w-[1512px] w-screen h-full relative flex justify-center items-center overflow-hidden pt-16 md:py-20 xl:px-20 xl:pt-[120px]">
 		<div class="flex flex-col xl:flex-row xl:items-center xl:gap-[110px] h-full w-full max-w-[1288px] z-10">
 			<div class="xl:block hidden relative w-[632px] h-[752px] px-5 md:px-8">

@@ -22,18 +22,18 @@
 	$: menuMobileClass = openMenu ? "menu-mobile":"menu-mobile-hidden"
 </script>
 
-<header class="xl:header-normal flex flex-row items-center justify-center absolute left-0 right-0 top-0 z-20">
+<header id="header" class="xl:header-normal flex flex-row items-center justify-center absolute left-0 right-0 top-0 z-20">
 	<nav class="px-[32px] xl:px-0 flex flex-row-reverse md:flex-row items-center justify-between text-base leading-6 tracking-wide h-[68px] xl:max-w-[1288px] grow gap-6">
 		<div class="xl:hidden {menuMobileClass} overflow-y-scroll">
 			<button on:click={toggleMenu}>
 				<ArrowUp color={'var(--color-icon-primary)'} size={24}/>
 			</button>
-			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_1}</a>
-			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_2}</a>
-			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_3}</a>
-			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_4}</a>
-			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_5}</a>
-			<a href="/" on:click={toggleMenu}>{glosary?.layout?.nav_item_6}</a>
+			<a href="#work" on:click={toggleMenu}>{glosary?.layout?.nav_item_1}</a>
+			<a href="#achievements" on:click={toggleMenu}>{glosary?.layout?.nav_item_2}</a>
+			<a href="#services" on:click={toggleMenu}>{glosary?.layout?.nav_item_3}</a>
+			<a href="#tech" on:click={toggleMenu}>{glosary?.layout?.nav_item_4}</a>
+			<a href="#team" on:click={toggleMenu}>{glosary?.layout?.nav_item_5}</a>
+			<a href="#contact" on:click={toggleMenu}>{glosary?.layout?.nav_item_6}</a>
 			<div class="md:hidden flex">
 				<ThemeSelector/>
 			</div>
@@ -52,22 +52,22 @@
 			</a>
 			<ul class="xl:flex flex-row hidden">
 				<li class="px-4 py-6">
-					<a href="/">{glosary?.layout?.nav_item_1}</a>
+					<a href="#work">{glosary?.layout?.nav_item_1}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="/">{glosary?.layout?.nav_item_2}</a>
+					<a href="#achievements">{glosary?.layout?.nav_item_2}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="/">{glosary?.layout?.nav_item_3}</a>
+					<a href="#services">{glosary?.layout?.nav_item_3}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="/">{glosary?.layout?.nav_item_4}</a>
+					<a href="#tech">{glosary?.layout?.nav_item_4}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="/">{glosary?.layout?.nav_item_5}</a>
+					<a href="#team">{glosary?.layout?.nav_item_5}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="/">{glosary?.layout?.nav_item_6}</a>
+					<a href="#contact">{glosary?.layout?.nav_item_6}</a>
 				</li>
 			</ul>
 		</div>

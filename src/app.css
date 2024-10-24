@@ -486,6 +486,9 @@
 	font-family: var(--font-family-body);
 	color: var(--color-text-primary);
 }
+html {
+	scroll-behavior: smooth;
+}
 @layer utilities {
 	/* Textos color */
 	.text-color-brand{
@@ -1351,7 +1354,7 @@
 	}
 	/* Button color */
 	
-	button{
+	button, .button{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;

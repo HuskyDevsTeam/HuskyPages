@@ -33,7 +33,7 @@
 	
 </script>
 
-<section class="relative bg-[var(--color-surface-secondary)] mb-0 xl:mb-20">
+<section id="services" class="relative bg-[var(--color-surface-secondary)] mb-0 xl:mb-20">
 	<div class="max-w-[1512px] w-screen h-full relative flex justify-center items-center pt-8 pb-12 md:pt-18 md:pb-20 xl:pt-9 xl:pb-0">
 		<div class=" relative flex flex-col xl:flex-row xl:items-center xl:gap-[110px] h-full w-full max-w-[1288px] z-10">
 			<article class="flex flex-col gap-0 items-center md:items-start xl:items-center justify-center max-h-full xl:flex-row">

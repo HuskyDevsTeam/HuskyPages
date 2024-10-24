@@ -12,7 +12,7 @@
 	
 </script>
 
-<section class="relative bg-[var(--color-surface-secondary)] mb-0">
+<section id="achievements" class="relative bg-[var(--color-surface-secondary)] mb-0">
 	<div class="max-w-[1512px] w-screen h-full relative flex justify-center items-center py-8 md:pt-20 md:pb-18 xl:pb-9">
 		<div class=" relative flex flex-col xl:flex-row xl:items-center xl:gap-[110px] h-full w-full max-w-[1288px] z-10">
 			<article class="flex flex-col gap-12 md:gap-16 items-center justify-center max-h-full">

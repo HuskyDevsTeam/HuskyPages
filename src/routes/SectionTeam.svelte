@@ -56,7 +56,7 @@
 	
 </script>
 
-<section class="relative">
+<section id="team" class="relative">
 	<div class="max-w-[1512px] w-screen h-full relative flex justify-center items-center overflow-hidden py-16 md:py-20 xl:px-20">
 		<div class="flex flex-col xl:flex-row xl:items-center xl:gap-[110px] h-full w-full max-w-[1288px] z-10">
 			<article class="flex flex-col gap-14 items-center max-h-full">

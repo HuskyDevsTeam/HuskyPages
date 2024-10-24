@@ -15,7 +15,7 @@
 	
 </script>
 
-<section class="relative xl:h-[684px] md:h-[1020px] h-[740px] overflow-hidden">
+<section id="contact" class="relative xl:h-[684px] md:h-[1020px] h-[740px] overflow-hidden">
 	<!-- svelte-ignore a11y-media-has-caption -->
 	 <div class="absolute xl:h-[684px] md:h-[1020px] h-[740px] overflow-hidden w-full" id="videoContainer">
 		 <video id="backgroundVideo" autoplay muted loop class="object-cover object-center xl:h-[684px] md:h-[1020px] h-[740px] w-full">
@@ -33,10 +33,10 @@
 					<img src={huskyCall} alt="person-banner" class="xl:hidden max-w-[288px] max-h-[288px] md:max-w-[524px] md:max-h-[524px] my-2">
 					<p class="text-center body-medium-regular text-color-secondary xl:text-left">{glosary.section_6.article_text}</p>
 				</div>
-				<button class="button-active button-large w-full md:max-w-[320px]">
+				<a href="https://wa.me/+584129671422" class="button button-active button-large w-full md:max-w-[320px]">
 					<LogoWhatsapp color="var(--color-icon-primary-invert)" size={24}/>
 					<span>{glosary.section_6.article_button}</span>
-				</button>
+				</a>
 			</article>
 			<div class="hidden xl:flex">
 				<img src={huskyCall} alt="person-banner" class="max-w-[524px] max-h-[524px]">
