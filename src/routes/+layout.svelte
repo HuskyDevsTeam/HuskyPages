@@ -8,7 +8,7 @@
 	import { browser } from '$app/environment';
 
     let darkMode = true;
-	let initialLanguage
+	let initialLanguage = languagesEnum.ENGLISH
 	if (browser) {
         if (
             localStorage.theme === 'dark' ||
