@@ -39,6 +39,7 @@
 		if($lang !== newLanguage){
 			$lang = newLanguage
 		}
+		localStorage.setItem('language', newLanguage === "es" ? 'ES' : 'EN');
 	}
 	
 </script>

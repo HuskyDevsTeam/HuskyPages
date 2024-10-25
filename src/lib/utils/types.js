@@ -4,7 +4,7 @@
 	 * @enum {string}
 	 */
 export const languagesEnum = {
-    ESPANISH: "es",
+    SPANISH: "es",
     ENGLISH: "en",
 }
 /**

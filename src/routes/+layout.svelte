@@ -8,6 +8,7 @@
 	import { browser } from '$app/environment';
 
     let darkMode = true;
+	let initialLanguage
 	if (browser) {
         if (
             localStorage.theme === 'dark' ||
@@ -18,6 +19,16 @@
         } else {
             document.documentElement.classList.remove('dark');
             darkMode = false;
+        }
+    }
+	if (browser) {
+        if (
+            localStorage.language === 'ES' ||
+            (!('language' in localStorage) && navigator.languages.some(el => el.startsWith('es-')))
+        ) {
+            initialLanguage = languagesEnum.SPANISH;
+        } else {
+            initialLanguage = languagesEnum.ENGLISH;
         }
     }
 	
@@ -32,7 +43,7 @@
 
 	// Create a store and update it when necessary...
 	/** @type {import("svelte/store").Writable<import("$lib/utils/types").languagesEnum>} */
-	const lang = writable(languagesEnum.ENGLISH);
+	const lang = writable(initialLanguage);
 
 	/** @type {import("svelte/store").Writable<import("$lib/utils/types").themesEnum>} */
 	const theme = writable(darkMode ? themesEnum.DARK : themesEnum.LIGHT);
