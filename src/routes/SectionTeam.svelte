@@ -21,36 +21,34 @@
 			description:glosary.section_5.team_description_1,
 			image:teamChemi,
 			name:"Chemi Martínez",
-			instagram:"",
-			linkedin:"",
-			github:"",
+			instagram:"https://www.instagram.com/chemimartinez10/profilecard/?igsh=MWFnbHk2ZjN5ZWxtZw==",
+			linkedin:"https://www.linkedin.com/in/chemi-martinez-ff9616/",
+			github:"https://github.com/chemimartinez10",
 		},
 		{
 			title:glosary.section_5.team_title_2,
 			description:glosary.section_5.team_description_2,
 			image:teamLuis,
 			name:"Luis Vásquez",
-			instagram:"",
-			linkedin:"",
-			github:"",
+			instagram:"https://www.instagram.com/vasqale?igsh=Z2JmbmFlcXU0M3lj",
+			linkedin:"https://www.linkedin.com/in/vasqale/",
+			github:"https://github.com/DonPasticho",
 		},
 		{
 			title:glosary.section_5.team_title_3,
 			description:glosary.section_5.team_description_3,
 			image:teamManuel,
 			name:"Manuel Farias",
-			instagram:"",
-			linkedin:"",
-			github:"",
+			instagram:"https://www.instagram.com/manuel.farias.m?igsh=MXF1YjV2cjNjdTYwdw==",
+			linkedin:"https://www.linkedin.com/in/manuel-farias-8402a1251/",
+			github:"https://github.com/manuelrrk",
 		},
 		{
 			title:glosary.section_5.team_title_4,
 			description:glosary.section_5.team_description_4,
 			image:teamJavier,
 			name:"Javier Nuñez",
-			instagram:"",
-			linkedin:"",
-			github:"",
+			linkedin:"https://www.linkedin.com/in/javier-alejandro-núñez-gómez-52ab9b330/",
 		},
 	]
 	
@@ -81,15 +79,21 @@
 								</p>
 							</div>
 							<div class="flex flex-row gap-4 items-center justify-center">
-								<a href={member.instagram}>
-									<LogoInstagram color={'var(--color-icon-neutral)'} size={24}/>
-								</a>
-								<a href={member.linkedin}>
-									<LogoLinkedin color={'var(--color-icon-neutral)'} size={24}/>
-								</a>
-								<a href={member.github}>
-									<LogoGithub color={'var(--color-icon-neutral)'} size={24}/>
-								</a>
+								{#if member?.instagram}
+									<a href={member.instagram}>
+										<LogoInstagram color={'var(--color-icon-neutral)'} size={24}/>
+									</a>
+								{/if}
+								{#if member?.linkedin}
+									<a href={member.linkedin}>
+										<LogoLinkedin color={'var(--color-icon-neutral)'} size={24}/>
+									</a>
+								{/if}
+								{#if member?.github}
+									<a href={member.github}>
+										<LogoGithub color={'var(--color-icon-neutral)'} size={24}/>
+									</a>
+								{/if}
 							</div>
 						</div>
 					{/each}

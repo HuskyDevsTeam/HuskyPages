@@ -5,7 +5,7 @@
 	import work02 from '$lib/images/work_02.png'
 	import work03 from '$lib/images/work_03.png'
 	import work04 from '$lib/images/work_04.png'
-	import work05 from '$lib/images/work_01.png'
+	import work05 from '$lib/images/work_05.png'
 
 	let glosary = dict["en"]
 	let open = false
@@ -21,10 +21,10 @@
 
 	$: list = [
 		{
-			title:glosary.section_1.card_title_1,
-			description:glosary.section_1.card_description_1,
-			image:work01,
-			live_demo:"https://rifaselmarquez.com/",
+			title:glosary.section_1.card_title_4,
+			description:glosary.section_1.card_description_4,
+			image:work04,
+			live_demo:"https://ganaconivan.com/",
 			github_repo:"",
 		},
 		{
@@ -35,26 +35,27 @@
 			github_repo:"",
 		},
 		{
-			title:glosary.section_1.card_title_3,
-			description:glosary.section_1.card_description_3,
-			image:work03,
-			live_demo:"https://smarthome1806.netlify.app/",
-			github_repo:"https://github.com/DonPasticho/SmartHome--Vue--Tw-",
-		},
-		{
-			title:glosary.section_1.card_title_4,
-			description:glosary.section_1.card_description_4,
-			image:work04,
-			live_demo:"https://ganaconivan.com/",
+			title:glosary.section_1.card_title_1,
+			description:glosary.section_1.card_description_1,
+			image:work01,
+			live_demo:"https://rifaselmarquez.com/",
 			github_repo:"",
 		},
 		{
 			title:glosary.section_1.card_title_5,
 			description:glosary.section_1.card_description_5,
 			image:work05,
-			live_demo:"https://rifasrichani.com/",
+			live_demo:"https://lallavedorada.com/",
 			github_repo:"",
 		},
+		{
+			title:glosary.section_1.card_title_3,
+			description:glosary.section_1.card_description_3,
+			image:work03,
+			live_demo:"https://smarthome1806.netlify.app/",
+			github_repo:"https://github.com/DonPasticho/SmartHome--Vue--Tw-",
+		},
+		
 	]
 	
 </script>
