@@ -1,11 +1,12 @@
 <script>
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
-	import work01 from '$lib/images/work_01.png'
+	import work01 from '$lib/images/work_01.jpg'
 	import work02 from '$lib/images/work_02.png'
 	import work03 from '$lib/images/work_03.png'
 	import work04 from '$lib/images/work_04.png'
 	import work05 from '$lib/images/work_05.png'
+	import work06 from '$lib/images/work_06.jpg'
 
 	let glosary = dict["en"]
 	let open = false
@@ -38,7 +39,7 @@
 			title:glosary.section_1.card_title_1,
 			description:glosary.section_1.card_description_1,
 			image:work01,
-			live_demo:"https://rifaselmarquez.com/",
+			live_demo:"https://globalrifasvzla.com/",
 			github_repo:"",
 		},
 		{
@@ -46,6 +47,13 @@
 			description:glosary.section_1.card_description_5,
 			image:work05,
 			live_demo:"https://lallavedorada.com/",
+			github_repo:"",
+		},
+		{
+			title:glosary.section_1.card_title_6,
+			description:glosary.section_1.card_description_6,
+			image:work06,
+			live_demo:"https://coronaconmanuel.com/",
 			github_repo:"",
 		},
 		{

@@ -75,15 +75,15 @@
 		<div class="md:flex hidden flex-row gap-10 p-1 items-center justify-center">
 			<ThemeSelector/>
 			<LanguageSelector/>
-			<a href="#">
+			<a href="https://www.facebook.com/huskydevteam" target="_blank">
 				<LogoFacebook color={'var(--color-icon-primary)'} size={24}/>
 	
 			</a>
-			<a href="#">
+			<a href="https://github.com/HuskyDevsTeam" target="_blank">
 				<LogoGithub color={'var(--color-icon-primary)'} size={24}/>
 	
 			</a>
-			<a href="#">
+			<a href="https://www.instagram.com/huskydevteam?igsh=cGFoNHRyMTVmY3A5" target="_blank">
 				<LogoInstagram color={'var(--color-icon-primary)'} size={24}/>
 	
 			</a>

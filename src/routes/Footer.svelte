@@ -42,15 +42,15 @@
 			</li>
 		</ul>
 		<div class="flex flex-row gap-6 p-1 items-center justify-center">
-			<a href="https://www.facebook.com/huskydevteam">
+			<a href="https://www.facebook.com/huskydevteam" target="_blank">
 				<LogoFacebook color={'var(--color-states-neutral-400)'} size={24}/>
 	
 			</a>
-			<a href="https://github.com/HuskyDevsTeam">
+			<a href="https://github.com/HuskyDevsTeam" target="_blank">
 				<LogoGithub color={'var(--color-states-neutral-400)'} size={24}/>
 	
 			</a>
-			<a href="https://www.instagram.com/huskydevteam?igsh=cGFoNHRyMTVmY3A5">
+			<a href="https://www.instagram.com/huskydevteam?igsh=cGFoNHRyMTVmY3A5" target="_blank">
 				<LogoInstagram color={'var(--color-states-neutral-400)'} size={24}/>
 	
 			</a>
