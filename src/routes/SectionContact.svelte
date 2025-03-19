@@ -30,18 +30,18 @@
 						<h3 class="body-overline-medium text-color-brand">{glosary.section_6.section_title}</h3>
 						<h1 class="md:display-small-extrabold xl:text-left headline-medium-bold text-color-primary">{glosary.section_6.article_title}</h1>
 					</div>
-					<a href="https://wa.me/+584129671422" target="_blank">
+					<a href="https://wa.me/+584120819758" target="_blank">
 						<img src={huskyCall} alt="person-banner" class="xl:hidden max-w-[288px] max-h-[288px] md:max-w-[524px] md:max-h-[524px] my-2">
 					</a>
 					<p class="text-center body-medium-regular text-color-secondary xl:text-left">{glosary.section_6.article_text}</p>
 				</div>
-				<a href="https://wa.me/+584129671422" class="button button-active button-large w-full md:max-w-[320px]">
+				<a href="https://wa.me/+584120819758" class="button button-active button-large w-full md:max-w-[320px]">
 					<LogoWhatsapp color="var(--color-icon-primary-invert)" size={24}/>
 					<span>{glosary.section_6.article_button}</span>
 				</a>
 			</article>
 			<div class="hidden xl:flex">
-				<a href="https://wa.me/+584129671422" target="_blank">
+				<a href="https://wa.me/+584120819758" target="_blank">
 					<img src={huskyCall} alt="person-banner" class="max-w-[524px] max-h-[524px]">
 				</a>
 			</div>

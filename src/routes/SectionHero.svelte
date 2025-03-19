@@ -25,7 +25,7 @@
 					</div>
 					<p class="text-center body-medium-regular text-color-secondary md:text-left">{glosary.section_0.article_text}</p>
 				</div>
-				<a href="https://wa.me/+584129671422" class="button button-active button-large w-full md:max-w-[320px]">
+				<a href="https://wa.me/+584120819758" class="button button-active button-large w-full md:max-w-[320px]">
 					<LogoWhatsapp color="var(--color-icon-primary-invert)" size={24}/>
 					<span>{glosary.section_0.article_button}</span>
 				</a>
