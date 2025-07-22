@@ -14,10 +14,10 @@ RUN npm install
 COPY . .
 
 # Construye la aplicación para producción
-RUN npm run build
+RUN if [ "$NODE_ENV" = "production" ]; then npm run build; fi
 
 # Expone el puerto en el que la aplicación se ejecutará
-EXPOSE 5180
+EXPOSE 5173
 
 # Comando para iniciar la aplicación
 CMD ["npm", "run", "dev"]

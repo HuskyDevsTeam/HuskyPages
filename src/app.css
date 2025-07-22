@@ -8,128 +8,128 @@
     /* Custom font */
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-ExtraLight.ttf') format('ttf');
+        src: url('/font/SourceCodePro-ExtraLight.ttf') format('truetype');
         font-weight: 200;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-Light.ttf') format('ttf');
+        src: url('/font/SourceCodePro-Light.ttf') format('truetype');
         font-weight: 300;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-Regular.ttf') format('ttf');
+        src: url('/font/SourceCodePro-Regular.ttf') format('truetype');
         font-weight: 400;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-Medium.ttf') format('ttf');
+        src: url('/font/SourceCodePro-Medium.ttf') format('truetype');
         font-weight: 500;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-SemiBold.ttf') format('ttf');
+        src: url('/font/SourceCodePro-SemiBold.ttf') format('truetype');
         font-weight: 600;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-Bold.ttf') format('ttf');
+        src: url('/font/SourceCodePro-Bold.ttf') format('truetype');
         font-weight: 700;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-Bold.ttf') format('ttf');
+        src: url('/font/SourceCodePro-Bold.ttf') format('truetype');
         font-weight: 700;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-ExtraBold.ttf') format('ttf');
+        src: url('/font/SourceCodePro-ExtraBold.ttf') format('truetype');
         font-weight: 800;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-Black.ttf') format('ttf');
+        src: url('/font/SourceCodePro-Black.ttf') format('truetype');
         font-weight: 900;
         font-style: normal;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-ExtraLightItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-ExtraLightItalic.ttf') format('truetype');
         font-weight: 200;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-LightItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-LightItalic.ttf') format('truetype');
         font-weight: 300;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-Italic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-Italic.ttf') format('truetype');
         font-weight: 400;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-MediumItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-MediumItalic.ttf') format('truetype');
         font-weight: 500;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-SemiBoldItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-SemiBoldItalic.ttf') format('truetype');
         font-weight: 600;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-BoldItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-BoldItalic.ttf') format('truetype');
         font-weight: 700;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-BoldItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-BoldItalic.ttf') format('truetype');
         font-weight: 700;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-ExtraBoldItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-ExtraBoldItalic.ttf') format('truetype');
         font-weight: 800;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'SourceCodePro';
-        src: url('/font/SourceCodePro-BlackItalic.ttf') format('ttf');
+        src: url('/font/SourceCodePro-BlackItalic.ttf') format('truetype');
         font-weight: 900;
-        font-style: normal;
+        font-style: italic;
         font-display: swap;
     }
 }
@@ -1425,20 +1425,20 @@ html {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: stretch;
-		width: 100dvw;
-		height: 100dvh;
+		width: 100vw;
+		height: 100vh;
 		position: fixed;
-		top: -100%;
+		top: 0px;
 		left: 0px;
 		cursor: pointer;
 		background-color: var(--color-surface-primary);
 		color: var(--color-text-primary-invert);
-		transform: translateY(100%);
+		transform: translateY(0);
 		transition: transform 750ms ease;
 		z-index: 99;
 
 	}
-	.menu-mobile > *, .menu-mobile-hidden>*{
+	.menu-mobile > *{
 		padding: 16px;
 		text-align: center;
 		display: flex;
@@ -1448,19 +1448,31 @@ html {
 			background-color: var(--color-surface-brand);
 		}
 	}
+	.menu-mobile-hidden>*{
+		padding: 0px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 0px;
+		&:hover{
+			background-color: var(--color-surface-brand);
+		}
+	}
 	.menu-mobile-hidden{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: stretch;
-		width: 100dvw;
-		height: 100dvh;
+		width: 100vw;
+		height: 100vh;
 		position: fixed;
-		top: -100%;
+		top: -110%;
 		left: 0px;
 		cursor: pointer;
 		background-color: var(--color-surface-primary);
 		color: var(--color-text-primary-invert);
+		transform: translateY(-100%);
 		transition: transform 750ms ease;
 		z-index: 99;
 	}
@@ -1479,6 +1491,9 @@ footer{
 *{
 	transition: color 500ms ease-in-out;
 	transition: background 500ms ease-in-out;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 
 body {

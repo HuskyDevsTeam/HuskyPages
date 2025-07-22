@@ -52,7 +52,7 @@
 	setContext('ui_context', {lang, theme});
 </script>
 
-<div class="app">
+<div class="app bg-[var(--color-surface-secondary)]">
 	<Header />
 
 	<main>

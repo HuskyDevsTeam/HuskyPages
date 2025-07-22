@@ -1,12 +1,15 @@
 <script>
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
-	import work01 from '$lib/images/work_01.jpg'
+	import work01 from '$lib/images/work_01.png'
 	import work02 from '$lib/images/work_02.png'
 	import work03 from '$lib/images/work_03.png'
 	import work04 from '$lib/images/work_04.png'
-	import work05 from '$lib/images/work_05.png'
-	import work06 from '$lib/images/work_06.jpg'
+	import work05 from '$lib/images/work_05.jpg'
+	import work06 from '$lib/images/work_06.png'
+	import work07 from '$lib/images/work_07.png'
+	import work08 from '$lib/images/work_08.png'
+	import work09 from '$lib/images/work_09.png'
 
 	let glosary = dict["en"]
 	let open = false
@@ -22,9 +25,9 @@
 
 	$: list = [
 		{
-			title:glosary.section_1.card_title_4,
-			description:glosary.section_1.card_description_4,
-			image:work04,
+			title:glosary.section_1.card_title_1,
+			description:glosary.section_1.card_description_1,
+			image:work01,
 			live_demo:"https://ganaconivan.com/",
 			github_repo:"",
 		},
@@ -32,36 +35,57 @@
 			title:glosary.section_1.card_title_2,
 			description:glosary.section_1.card_description_2,
 			image:work02,
-			live_demo:"https://libling.lu/",
-			github_repo:"",
-		},
-		{
-			title:glosary.section_1.card_title_1,
-			description:glosary.section_1.card_description_1,
-			image:work01,
-			live_demo:"https://globalrifasvzla.com/",
-			github_repo:"",
-		},
-		{
-			title:glosary.section_1.card_title_5,
-			description:glosary.section_1.card_description_5,
-			image:work05,
-			live_demo:"https://lallavedorada.com/",
-			github_repo:"",
-		},
-		{
-			title:glosary.section_1.card_title_6,
-			description:glosary.section_1.card_description_6,
-			image:work06,
-			live_demo:"https://coronaconmanuel.com/",
+			live_demo:"https://russafortuna.com/",
 			github_repo:"",
 		},
 		{
 			title:glosary.section_1.card_title_3,
 			description:glosary.section_1.card_description_3,
 			image:work03,
-			live_demo:"https://smarthome1806.netlify.app/",
-			github_repo:"https://github.com/DonPasticho/SmartHome--Vue--Tw-",
+			live_demo:"https://ganaconelguerrero.com/",
+			github_repo:"",
+		},
+		{
+			title:glosary.section_1.card_title_4,
+			description:glosary.section_1.card_description_4,
+			image:work04,
+			live_demo:"https://libling.lu/",
+			github_repo:"",
+		},
+		{
+			title:glosary.section_1.card_title_5,
+			description:glosary.section_1.card_description_5,
+			image:work05,
+			live_demo:"https://globalrifasvzla.com/",
+			github_repo:"",
+		},
+		{
+			title:glosary.section_1.card_title_6,
+			description:glosary.section_1.card_description_6,
+			image:work06,
+			live_demo:"https://keicash.com/",
+			github_repo:"",
+		},
+		{
+			title:glosary.section_1.card_title_7,
+			description:glosary.section_1.card_description_7,
+			image:work07,
+			live_demo:"https://ganamasconandrea.com/",
+			github_repo:"",
+		},
+		{
+			title:glosary.section_1.card_title_8,
+			description:glosary.section_1.card_description_8,
+			image:work08,
+			live_demo:"https://ganaconkadiccs.com/",
+			github_repo:"",
+		},
+		{
+			title:glosary.section_1.card_title_9,
+			description:glosary.section_1.card_description_9,
+			image:work09,
+			live_demo:"https://vergacionderifa.com/",
+			github_repo:"",
 		},
 		
 	]

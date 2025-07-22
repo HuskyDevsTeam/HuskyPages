@@ -47,7 +47,7 @@
 		</button>
 		<!-- real navbar -->
 		<div class="flex flex-row gap-10 items-center md:grow">
-			<a href="#header">
+			<a href="/">
 				<img class="w-[100px] h-[32px]" src={$theme === "dark" ? logoInvert : logo} alt="HuskyLogo" />
 			</a>
 			<ul class="xl:flex flex-row hidden">
