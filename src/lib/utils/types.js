@@ -22,3 +22,9 @@ export const themesEnum = {
  * @property {import("svelte/store").Writable<"es"|"en">} lang - El nombre del usuario.
  * @property {import("svelte/store").Writable<"dark"|"light">} theme - La edad del usuario.
  */
+
+/**
+ * @typedef {Object} RouteLink
+ * @property {string} name
+ * @property {string} url
+ */

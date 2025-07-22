@@ -107,6 +107,9 @@ export const dict = {
             article_text: "A member of our team will be happy to answer your questions and help you.",
             article_button: "Let’s meet"
         },
+        terms:{
+            title:"Terms and Conditions", 
+        }  
     },
     es:{
         layout: {
@@ -215,6 +218,10 @@ export const dict = {
             article_image: "Llamada del Husky",
             article_text: "Un miembro de nuestro equipo estará encantado de responder tus preguntas y ayudarte.",
             article_button: "Reunámonos"
+        },
+        terms:{
+            title:"Términos y condiciones",
+
         }      
     }
 }

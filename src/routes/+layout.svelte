@@ -1,6 +1,6 @@
 <script>
-	import Header from './Header.svelte';
-	import Footer from './Footer.svelte';
+	import Header from './sections/Header.svelte';
+	import Footer from './sections/Footer.svelte';
 	import '../app.css';
 	import { setContext } from 'svelte';
 	import { writable } from 'svelte/store';

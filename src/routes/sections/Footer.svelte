@@ -1,11 +1,9 @@
 <script>
-	import { page } from '$app/stores';
 	import logo from '$lib/images/logo.svg';
 	import logoInvert from '$lib/images/logo-invert.svg';
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
 	import { LogoFacebook, LogoInstagram, LogoGithub } from 'svelte-ionicons';
-
 
 	let glosary = dict["en"]
 
@@ -57,8 +55,8 @@
 		</div>
 		<div class="flex flex-col md:flex-row items-center justify-between text-center text-color-secondary label-medium-regular md:pt-8 md:border-t md:border-color-primary">
 			<div class="hidden md:flex flex-row gap-8 items-center justify-center">
-				<a href="#" class="text-color-secondary">{glosary.layout.privacy_policy}</a>
-				<a href="#" class="text-color-secondary">{glosary.layout.terms_of_use}</a>
+				<a href="/terms" class="text-color-secondary">{glosary.layout.privacy_policy}</a>
+				<a href="/terms" class="text-color-secondary">{glosary.layout.terms_of_use}</a>
 			</div>
 			<span>
 				© 2024 Husky Devs. All rights reserved.

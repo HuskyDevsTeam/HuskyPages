@@ -1,0 +1,12 @@
+<script>
+    export let color = "var(--color-icon-neutral)";
+</script>
+
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path 
+        d="M3.5 9.99934L9.46967 4.02967C9.76256 3.73677 10.2374 3.73677 10.5303 4.02967L16.5 9.99934M5 8.49934V15.2493C5 15.6636 5.33579 15.9993 5.75 15.9993H8.5V12.7493C8.5 12.3351 8.83579 11.9993 9.25 11.9993H10.75C11.1642 11.9993 11.5 12.3351 11.5 12.7493V15.9993H14.25C14.6642 15.9993 15 15.6636 15 15.2493V8.49934M7.5 15.9993H13" 
+        stroke={color} 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+    />
+</svg>

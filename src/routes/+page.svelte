@@ -1,11 +1,11 @@
 <script>
-	import SectionAchievements from "./SectionAchievements.svelte";
-	import SectionContact from "./SectionContact.svelte";
-	import SectionHero from "./SectionHero.svelte";
-	import SectionServices from "./SectionServices.svelte";
-	import SectionTeam from "./SectionTeam.svelte";
-	import SectionTech from "./SectionTech.svelte";
-	import SectionWork from "./SectionWork.svelte";
+	import SectionAchievements from "./sections/SectionAchievements.svelte";
+	import SectionContact from "./sections/SectionContact.svelte";
+	import SectionHero from "./sections/SectionHero.svelte";
+	import SectionServices from "./sections/SectionServices.svelte";
+	import SectionTeam from "./sections/SectionTeam.svelte";
+	import SectionTech from "./sections/SectionTech.svelte";
+	import SectionWork from "./sections/SectionWork.svelte";
 
 </script>
 
