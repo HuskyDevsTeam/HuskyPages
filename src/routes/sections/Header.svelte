@@ -28,12 +28,12 @@
 			<button on:click={toggleMenu}>
 				<ArrowUp color={'var(--color-icon-primary)'} size={24}/>
 			</button>
-			<a href="#work" on:click={toggleMenu}>{glosary?.layout?.nav_item_1}</a>
-			<a href="#achievements" on:click={toggleMenu}>{glosary?.layout?.nav_item_2}</a>
-			<a href="#services" on:click={toggleMenu}>{glosary?.layout?.nav_item_3}</a>
-			<a href="#tech" on:click={toggleMenu}>{glosary?.layout?.nav_item_4}</a>
-			<a href="#team" on:click={toggleMenu}>{glosary?.layout?.nav_item_5}</a>
-			<a href="#contact" on:click={toggleMenu}>{glosary?.layout?.nav_item_6}</a>
+			<a href="/#work" on:click={toggleMenu}>{glosary?.layout?.nav_item_1}</a>
+			<a href="/#achievements" on:click={toggleMenu}>{glosary?.layout?.nav_item_2}</a>
+			<a href="/#services" on:click={toggleMenu}>{glosary?.layout?.nav_item_3}</a>
+			<a href="/#tech" on:click={toggleMenu}>{glosary?.layout?.nav_item_4}</a>
+			<a href="/#team" on:click={toggleMenu}>{glosary?.layout?.nav_item_5}</a>
+			<a href="/#contact" on:click={toggleMenu}>{glosary?.layout?.nav_item_6}</a>
 			<div class="md:hidden flex">
 				<ThemeSelector/>
 			</div>
@@ -52,22 +52,22 @@
 			</a>
 			<ul class="xl:flex flex-row hidden">
 				<li class="px-4 py-6">
-					<a href="#work">{glosary?.layout?.nav_item_1}</a>
+					<a href="/#work">{glosary?.layout?.nav_item_1}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="#achievements">{glosary?.layout?.nav_item_2}</a>
+					<a href="/#achievements">{glosary?.layout?.nav_item_2}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="#services">{glosary?.layout?.nav_item_3}</a>
+					<a href="/#services">{glosary?.layout?.nav_item_3}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="#tech">{glosary?.layout?.nav_item_4}</a>
+					<a href="/#tech">{glosary?.layout?.nav_item_4}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="#team">{glosary?.layout?.nav_item_5}</a>
+					<a href="/#team">{glosary?.layout?.nav_item_5}</a>
 				</li>
 				<li class="px-4 py-6">
-					<a href="#contact">{glosary?.layout?.nav_item_6}</a>
+					<a href="/#contact">{glosary?.layout?.nav_item_6}</a>
 				</li>
 			</ul>
 		</div>

@@ -21,22 +21,22 @@
 		</a>
 		<ul class="flex flex-col md:flex-row items-center justify-center gap-6">
 			<li>
-				<a href="#work" class="label-large-medium">{glosary?.layout?.nav_item_1}</a>
+				<a href="/#work" class="label-large-medium">{glosary?.layout?.nav_item_1}</a>
 			</li>
 			<li>
-				<a href="#achievements" class="label-large-medium">{glosary?.layout?.nav_item_2}</a>
+				<a href="/#achievements" class="label-large-medium">{glosary?.layout?.nav_item_2}</a>
 			</li>
 			<li>
-				<a href="#services" class="label-large-medium">{glosary?.layout?.nav_item_3}</a>
+				<a href="/#services" class="label-large-medium">{glosary?.layout?.nav_item_3}</a>
 			</li>
 			<li>
-				<a href="#tech" class="label-large-medium">{glosary?.layout?.nav_item_4}</a>
+				<a href="/#tech" class="label-large-medium">{glosary?.layout?.nav_item_4}</a>
 			</li>
 			<li>
-				<a href="#team" class="label-large-medium">{glosary?.layout?.nav_item_5}</a>
+				<a href="/#team" class="label-large-medium">{glosary?.layout?.nav_item_5}</a>
 			</li>
 			<li>
-				<a href="#contact" class="label-large-medium">{glosary?.layout?.nav_item_6}</a>
+				<a href="/#contact" class="label-large-medium">{glosary?.layout?.nav_item_6}</a>
 			</li>
 		</ul>
 		<div class="flex flex-row gap-6 p-1 items-center justify-center">
