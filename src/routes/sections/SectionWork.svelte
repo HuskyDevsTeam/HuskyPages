@@ -1,6 +1,7 @@
 <script>
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
+	import work00 from '$lib/images/work_00.png'
 	import work01 from '$lib/images/work_01.png'
 	import work02 from '$lib/images/work_02.png'
 	import work03 from '$lib/images/work_03.png'
@@ -24,6 +25,13 @@
 	}
 
 	$: list = [
+		{
+			title:glosary.section_1.card_title_0,
+			description:glosary.section_1.card_description_0,
+			image:work00,
+			live_demo:"https://rifas.huskydevs.com/",
+			github_repo:"",
+		},
 		{
 			title:glosary.section_1.card_title_1,
 			description:glosary.section_1.card_description_1,
@@ -102,7 +110,7 @@
 				</div>
 				<div class="flex flex-col gap-12">
 					<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-5 md:px-8 gap-y-8 gap-x-8 xl:gap-x-6">
-						{#each open ? list : list.slice(0, 4) as work}
+						{#each open ? list : list.slice(0, 8) as work}
 							<div class="flex flex-col gap-0 justify-center items-center text-center bg-[var(--color-surface-primary)] shadow-md rounded-xl overflow-hidden grow">
 								<img src={work.image} alt={work.title} class="w-full h-1/2 object-center object-cover">
 								<div class="flex flex-col justify-center w-full items-center gap-4 grow p-4">

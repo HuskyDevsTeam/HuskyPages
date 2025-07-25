@@ -29,6 +29,8 @@ export const dict = {
         section_1:{
             section_title:"Our work",
             article_title:"We create your dream app",
+            card_title_0:"Raffle website demo",
+            card_description_0:"Demo of the raffle website for clients.",
             card_title_1:"Gana con Ivan",
             card_description_1:"Raffle website",
             card_title_2:"Russa Fortuna",
@@ -159,6 +161,8 @@ export const dict = {
         section_1: {
             section_title: "Nuestro trabajo",
             article_title: "Creamos la aplicación de tus sueños",
+            card_title_0:"Demo del sistema de rifas",
+            card_description_0:"Sistema de rifas online, version demostración para clientes.",
             card_title_1:"Gana con Ivan",
             card_description_1:"Sitio web de rifas",
             card_title_2:"Russa Fortuna",
