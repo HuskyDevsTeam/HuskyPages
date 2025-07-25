@@ -6,6 +6,7 @@
 	import teamLuis from '$lib/images/team_luis.jpg'
 	import teamManuel from '$lib/images/team_manuel.jpg'
 	import teamJavier from '$lib/images/team_javier.jpg'
+	import teamDaniel from '$lib/images/team_daniel.jpg'
 
 	let glosary = dict["en"]
 
@@ -28,6 +29,22 @@
 		{
 			title:glosary.section_5.team_title_2,
 			description:glosary.section_5.team_description_2,
+			image:teamDaniel,
+			name:"Daniel Campos",
+			instagram:"https://www.instagram.com/mynameiscampos",
+			linkedin:"https://www.linkedin.com/in/daniel-campos-a2993a11a",
+		},
+		{
+			title:glosary.section_5.team_title_3,
+			description:glosary.section_5.team_description_3,
+			image:teamJavier,
+			name:"Javier Nuñez",
+			linkedin:"https://www.linkedin.com/in/javier-alejandro-núñez-gómez-52ab9b330/",
+			behance:"https://www.behance.net/javiernunezgomez",
+		},
+		{
+			title:glosary.section_5.team_title_4,
+			description:glosary.section_5.team_description_4,
 			image:teamLuis,
 			name:"Luis Vásquez",
 			instagram:"https://www.instagram.com/vasqale?igsh=Z2JmbmFlcXU0M3lj",
@@ -35,21 +52,13 @@
 			github:"https://github.com/DonPasticho",
 		},
 		{
-			title:glosary.section_5.team_title_3,
-			description:glosary.section_5.team_description_3,
+			title:glosary.section_5.team_title_5,
+			description:glosary.section_5.team_description_5,
 			image:teamManuel,
 			name:"Manuel Farias",
 			instagram:"https://www.instagram.com/manuel.farias.m?igsh=MXF1YjV2cjNjdTYwdw==",
 			linkedin:"https://www.linkedin.com/in/manuel-farias-8402a1251/",
 			github:"https://github.com/manuelrrk",
-		},
-		{
-			title:glosary.section_5.team_title_4,
-			description:glosary.section_5.team_description_4,
-			image:teamJavier,
-			name:"Javier Nuñez",
-			linkedin:"https://www.linkedin.com/in/javier-alejandro-núñez-gómez-52ab9b330/",
-			behance:"https://www.behance.net/javiernunezgomez",
 		},
 	]
 	
